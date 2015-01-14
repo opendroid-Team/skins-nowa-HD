@@ -1,0 +1,1838 @@
+<skin>
+  <output id="0">
+    <resolution xres="1280" yres="720" bpp="32" />
+  </output>
+  <colors>
+    <color name="background" value="#00808888" />
+    <color name="background1" value="#20000000" />
+    <color name="background2" value="#2538454e" />
+    <color name="background3" value="#2548555e" />
+    <color name="backgroundNT" value="#002f3942" />
+    <color name="black" value="#00000000" />
+    <color name="blue" value="#000064c7" />
+    <color name="dark" value="#00062748" />
+    <color name="darkgrey" value="#00555556" />
+    <color name="darkgrey1" value="#00333333" />
+    <color name="foreground" value="#00ffffff" />
+    <color name="green" value="#00389416" />
+    <color name="grey" value="#00aaaaaa" />
+    <color name="greya" value="#00cccccc" />
+    <color name="lightgrey" value="#00cccccc" />
+    <color name="listback" value="#254f7497" />
+    <color name="listback1" value="#00546475" />
+    <color name="menu" value="#00062748" />
+    <color name="orange" value="#00ffa323" />
+    <color name="orange1" value="#00ff3300" />
+    <color name="red" value="#00f23d21" />
+    <color name="secondBG" value="#162b3447" />
+    <color name="secondFG" value="#00ff8000" />
+    <color name="transparent" value="#ff000000" />
+    <color name="transpBlack" value="#80000000" />
+    <color name="transpWhite" value="#80ffffff" />
+    <color name="un232a33" value="#00232a33" />
+    <color name="un25062748" value="#25062748" />
+    <color name="un2518252e" value="#2518252e" />
+    <color name="un25344452" value="#25344452" />
+    <color name="un808888" value="#00808888" />
+    <color name="un9161819" value="#09161819" />
+    <color name="un9f1313" value="#009f1313" />
+    <color name="undcaaaa" value="#00dcaaaa" />
+    <color name="undcdcdc" value="#00dcdcdc" />
+    <color name="white" value="#00ffffff" />
+    <color name="yellow" value="#00bab329" />
+    <color name="yellow1" value="#00cc9329" />
+  </colors>
+  <windowstyle type="skinned" id="0">
+    <title offset="20,13" font="Regular;35" />
+    <color name="Background" color="background1" />
+    <color name="LabelForeground" color="white" />
+    <color name="ListboxBackground" color="background1" />
+    <color name="ListboxForeground" color="white" />
+    <color name="ListboxSelectedBackground" color="darkgrey1" />
+    <color name="ListboxSelectedForeground" color="white" />
+    <color name="ListboxMarkedBackground" color="background1" />
+    <color name="ListboxMarkedForeground" color="green" />
+    <color name="ListboxMarkedAndSelectedBackground" color="background1" />
+    <color name="ListboxMarkedAndSelectedForeground" color="red" />
+    <color name="WindowTitleForeground" color="white" />
+    <color name="WindowTitleBackground" color="background1" />
+    <borderset name="bsWindow">
+      <pixmap pos="bpTopLeft" filename="Nowa/back/window/b_tl.png" />
+      <pixmap pos="bpTop" filename="Nowa/back/window/b_t.png" />
+      <pixmap pos="bpTopRight" filename="Nowa/back/window/b_tr.png" />
+      <pixmap pos="bpLeft" filename="Nowa/back/window/b_l.png" />
+      <pixmap pos="bpRight" filename="Nowa/back/window/b_r.png" />
+      <pixmap pos="bpBottomLeft" filename="Nowa/back/window/b_bl.png" />
+      <pixmap pos="bpBottom" filename="Nowa/back/window/b_b.png" />
+      <pixmap pos="bpBottomRight" filename="Nowa/back/window/b_br.png" />
+    </borderset>
+  </windowstyle>
+  <windowstyle type="skinned" id="1">
+    <color name="Background" color="black" />
+    <color name="LabelForeground" color="white" />
+    <color name="ListboxBackground" color="un808888" />
+    <color name="ListboxForeground" color="white" />
+    <color name="ListboxSelectedBackground" color="un808888" />
+    <color name="ListboxSelectedForeground" color="white" />
+    <color name="ListboxMarkedBackground" color="un808888" />
+    <color name="ListboxMarkedForeground" color="white" />
+    <color name="ListboxMarkedAndSelectedBackground" color="un808888" />
+    <color name="ListboxMarkedAndSelectedForeground" color="white" />
+    <color name="WindowTitleForeground" color="white" />
+    <color name="WindowTitleBackground" color="black" />
+  </windowstyle>
+  <!-- Scrollbars -->
+  <windowstylescrollbar id="4">
+    <value name="BackgroundPixmapTopHeight" value="16" />
+    <value name="BackgroundPixmapBottomHeight" value="16" />
+    <value name="ValuePixmapTopHeight" value="2" />
+    <value name="ValuePixmapBottomHeight" value="2" />
+    <value name="ScrollbarWidth" value="10" />
+    <value name="ScrollbarBorderWidth" value="0" />
+    <pixmap name="BackgroundPixmap" filename="Nowa/back/scrollbarbackground.png" />
+    <pixmap name="ValuePixmap" filename="Nowa/back/scrollbarslider.png" />
+  </windowstylescrollbar>
+  <fonts>
+    <font filename="Nowa/fonts/setrixHD.ttf" name="Regular" scale="95" />
+    <font filename="Nowa/fonts/Arial Rounded MT Bold Bold.ttf" name="bold" scale="95" />
+    <font filename="lcd.ttf" name="LCD" scale="100" />
+    <font filename="Nowa/fonts/setrixHD.ttf" name="Replacement" scale="105" replacement="1" />
+    <font filename="tuxtxt.ttf" name="Console" scale="100" />
+  </fonts>
+  <subtitles>
+    <sub name="Subtitle_TTX" font="Regular;30" shadowColor="#40101010" shadowOffset="3,3" />
+    <sub name="Subtitle_Regular" font="Regular;30" foregroundColor="undcdcdc" shadowColor="#40101010" shadowOffset="3,3" />
+    <sub name="Subtitle_Bold" font="Replacement;30" foregroundColor="undcdcdc" shadowColor="#40101010" shadowOffset="3,3" />
+    <sub name="Subtitle_Italic" font="Regular;30" foregroundColor="undcaaaa" shadowColor="#40101010" shadowOffset="3,3" />
+  </subtitles>
+  <screen name="SubtitleDisplay" position="0,0" size="1280,720" zPosition="-1" flags="wfNoBorder" backgroundColor="transparent" />
+  <screen name="Volume" position="center,25" size="485,30" title="Volume" backgroundColor="transparent" zPosition="10" flags="wfNoBorder">
+    <ePixmap position="0,0" zPosition="0" size="485,30" pixmap="Nowa/back/vol_back.png" />
+    <widget name="Volume" position="100,4" zPosition="1" size="380,23" pixmap="Nowa/back/vol.png" transparent="1" />
+  </screen>
+  <screen name="InfoBar" position="0,10" size="1280,720" title="InfoBar" backgroundColor="transparent" flags="wfNoBorder">
+    <ePixmap position="0,0" size="1280,720" zPosition="-1" pixmap="Nowa/back/info_bg.png" />
+    <widget source="session.RecordState" render="Pixmap" position="130,507" size="76,23" zPosition="2" pixmap="Nowa/icons/ico_rec_on.png" alphatest="blend">
+      <convert type="ConditionalShowHide">Blink</convert>
+    </widget>
+    <widget source="session.CurrentService" render="Picon" position="60,549" zPosition="4" size="220,132" transparent="1" alphatest="blend">
+      <convert type="ServiceName">Reference</convert>
+    </widget>
+    <widget source="session.CurrentService" render="Label" position="307,587" size="585,55" font="Regular; 40" noWrap="1" foregroundColor="white" transparent="1" backgroundColor="background1" halign="left">
+      <convert type="ServiceName">Name</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="1117,62" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="1112,15" size="130,45" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget backgroundColor="orange" position="41,591" render="FixedLabel" size="8,8" source="session.TunerInfo" zPosition="2">
+      <convert type="TunerInfo">TunerUseMask</convert>
+      <convert type="ValueBitTest">1</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget backgroundColor="orange" position="41,606" render="FixedLabel" size="8,8" source="session.TunerInfo" zPosition="2">
+      <convert type="TunerInfo">TunerUseMask</convert>
+      <convert type="ValueBitTest">2</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget backgroundColor="orange" position="41,620" render="FixedLabel" size="8,8" source="session.TunerInfo" zPosition="2">
+      <convert type="TunerInfo">TunerUseMask</convert>
+      <convert type="ValueBitTest">4</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget backgroundColor="orange" position="41,635" render="FixedLabel" size="8,8" source="session.TunerInfo" zPosition="2">
+      <convert type="TunerInfo">TunerUseMask</convert>
+      <convert type="ValueBitTest">8</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget backgroundColor="green" position="41,591" render="FixedLabel" size="8,8" source="session.FrontendInfo" zPosition="3">
+      <convert type="FrontendInfo">NUMBER</convert>
+      <convert type="ValueRange">0,0</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget backgroundColor="green" position="41,606" render="FixedLabel" size="8,8" source="session.FrontendInfo" zPosition="3">
+      <convert type="FrontendInfo">NUMBER</convert>
+      <convert type="ValueRange">1,1</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget backgroundColor="green" position="41,620" render="FixedLabel" size="8,8" source="session.FrontendInfo" zPosition="3">
+      <convert type="FrontendInfo">NUMBER</convert>
+      <convert type="ValueRange">2,2</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget backgroundColor="green" position="41,635" render="FixedLabel" size="8,8" source="session.FrontendInfo" zPosition="3">
+      <convert type="FrontendInfo">NUMBER</convert>
+      <convert type="ValueRange">3,3</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <ePixmap pixmap="Nowa/icons/ico_dolby_off.png" position="1156,598" size="60,35" zPosition="1" alphatest="blend" />
+    <widget source="session.CurrentService" render="Pixmap" pixmap="Nowa/icons/ico_dolby_on.png" position="1156,598" size="60,35" zPosition="2" alphatest="blend">
+      <convert type="ServiceInfo">IsMultichannel</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <ePixmap pixmap="Nowa/icons/ico_format_off.png" position="966,598" size="60,35" zPosition="1" alphatest="blend" />
+    <widget source="session.CurrentService" render="Pixmap" pixmap="Nowa/icons/ico_format_on.png" position="966,598" size="60,35" zPosition="2" alphatest="blend">
+      <convert type="ServiceInfo">IsWidescreen</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <ePixmap pixmap="Nowa/icons/ico_txt_off.png" position="1093,598" size="60,35" zPosition="1" alphatest="blend" />
+    <widget source="session.CurrentService" render="Pixmap" pixmap="Nowa/icons/ico_txt_on.png" position="1093,598" size="60,35" zPosition="2" alphatest="blend">
+      <convert type="ServiceInfo">HasTelext</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="session.CurrentService" render="Pixmap" pixmap="Nowa/icons/sub_on.png" position="572,-122" size="29,20" zPosition="2" alphatest="blend">
+      <convert type="ServiceInfo">SubservicesAvailable</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="session.CurrentService" render="Pixmap" pixmap="Nowa/icons/ico_hd_off.png" position="902,598" size="60,35" zPosition="1" alphatest="blend">
+      <convert type="ServiceInfo">VideoWidth</convert>
+      <convert type="ValueRange">0,720</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="session.CurrentService" render="Pixmap" pixmap="Nowa/icons/ico_hd_on.png" position="902,598" size="60,35" zPosition="2" alphatest="blend">
+      <convert type="ServiceInfo">VideoWidth</convert>
+      <convert type="ValueRange">721,1980</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <ePixmap pixmap="Nowa/icons/ico_crypt_off.png" position="1029,598" size="60,35" zPosition="1" alphatest="blend" />
+    <widget source="session.CurrentService" render="Pixmap" pixmap="Nowa/icons/ico_crypt_on.png" position="1029,598" size="60,35" zPosition="2" alphatest="blend">
+      <convert type="ServiceInfo">IsCrypted</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget backgroundColor="background1" font="Regular; 29" foregroundColor="white" position="921,34" render="Label" size="80,34" source="session.Event_Now" transparent="1" zPosition="1" halign="left">
+      <convert type="EventTime">StartTime</convert>
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget backgroundColor="background1" font="Regular; 35" foregroundColor="lightgrey" noWrap="1" position="79,30" render="Label" size="805,47" source="session.Event_Now" transparent="1" zPosition="1" halign="left">
+      <convert type="EventName">Name</convert>
+    </widget>
+    <widget backgroundColor="background1" font="Regular; 29" foregroundColor="white" halign="right" position="988,34" render="Label" size="115,34" source="session.Event_Now" transparent="1" zPosition="1">
+      <convert type="EventTime">Remaining</convert>
+      <convert type="RemainingToText">InMinutes</convert>
+    </widget>
+    <widget backgroundColor="background3" font="Regular; 26" position="138,83" render="Label" size="541,35" source="session.Event_Next" transparent="1" zPosition="1" foregroundColor="white" halign="left">
+      <convert type="EventName">Name</convert>
+    </widget>
+    <eLabel backgroundColor="grey" position="921,70" size="181,4" zPosition="1" foregroundColor="background1" />
+    <widget pixmap="Nowa/back/event_prog.png" position="921,70" render="Progress" size="181,4" source="session.Event_Now" zPosition="7" transparent="1">
+      <convert type="EventTime">Progress</convert>
+    </widget>
+    <widget source="session.Event_Now" render="Label" position="544,62" size="636,0" font="Regular; 22" zPosition="1" backgroundColor="background" foregroundColor="black" transparent="1">
+      <convert type="EventName">ExtendedDescription</convert>
+    </widget>
+    <widget source="session.Event_Next" render="Label" position="686,85" zPosition="2" size="69,35" font="Regular; 26" valign="center" transparent="1" foregroundColor="grey" backgroundColor="background" halign="left">
+      <convert type="EventTime">StartTime</convert>
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <eLabel text=")" position="779,84" size="65,35" font="Regular; 26" backgroundColor="background" foregroundColor="grey" transparent="1" halign="right" />
+    <eLabel text="(" position="677,84" size="65,35" font="Regular; 26" backgroundColor="background" foregroundColor="grey" transparent="1" />
+    <eLabel text="-" position="720,87" size="65,28" font="LCD; 25" backgroundColor="background" foregroundColor="grey" transparent="1" halign="center" />
+    <widget source="session.Event_Next" render="Label" position="753,85" zPosition="2" size="80,35" font="Regular; 25" valign="center" halign="right" transparent="1" foregroundColor="grey" backgroundColor="background">
+      <convert type="EventTime">Duration</convert>
+      <convert type="ClockToText">InMinutes</convert>
+    </widget>
+    <widget alphatest="blend" render="MSNWeatherPixmap" position="1011,105" size="75,75" source="session.MSNWeather" transparent="1" zPosition="8">
+      <convert type="MSNWeather">weathericon,current,/usr/share/enigma2/Nowa/weather_icons/,png</convert>
+    </widget>
+    <widget noWrap="1" backgroundColor="background1" font="Regular; 40" render="Label" position="1082,98" size="74,63" source="session.MSNWeather" transparent="1" zPosition="8" halign="center">
+      <convert type="MSNWeather">temperature_current</convert>
+    </widget>
+    <widget noWrap="1" backgroundColor="background1" font="Regular; 15" foregroundColor="white" render="Label" position="1057,160" size="90,20" source="session.MSNWeather" zPosition="8" halign="right" transparent="1">
+      <convert type="MSNWeather">temperature_heigh_low,current</convert>
+    </widget>
+    <widget alphatest="blend" render="MSNWeatherPixmap" position="1157,122" size="45,45" source="session.MSNWeather" transparent="1" zPosition="5">
+      <convert type="MSNWeather">weathericon,day2,/usr/share/enigma2/Nowa/weather_icons/,png</convert>
+    </widget>
+    <widget noWrap="1" backgroundColor="background1" font="Regular; 18" foregroundColor="white" render="Label" position="1205,118" size="35,24" source="session.MSNWeather" zPosition="3" halign="right" transparent="1" valign="center">
+      <convert type="MSNWeather">temperature_high,day2</convert>
+    </widget>
+    <widget backgroundColor="background1" font="Regular; 18" foregroundColor="white" render="Label" position="1205,144" size="35,24" source="session.MSNWeather" zPosition="3" halign="right" transparent="1" noWrap="1">
+      <convert type="MSNWeather">temperature_low,day2</convert>
+    </widget>
+  </screen>
+  <screen name="SecondInfoBar" position="0,10" size="1280,720" title="Second InfoBar" backgroundColor="transparent" flags="wfNoBorder">
+    <ePixmap position="0,0" size="1280,720" zPosition="-1" pixmap="Nowa/back/sib.png" />
+    <widget source="session.RecordState" render="Pixmap" position="132,507" size="74,23" zPosition="2" pixmap="Nowa/icons/ico_rec_on.png" alphatest="blend">
+      <convert type="ConditionalShowHide">Blink</convert>
+    </widget>
+    <widget source="session.CurrentService" render="Picon" position="60,549" zPosition="4" size="220,132" transparent="1" alphatest="blend">
+      <convert type="ServiceName">Reference</convert>
+    </widget>
+    <widget source="session.CurrentService" render="Label" position="307,587" size="585,55" font="Regular; 40" noWrap="1" foregroundColor="white" transparent="1" backgroundColor="background1" halign="left">
+      <convert type="ServiceName">Name</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="1117,62" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="1112,15" size="130,45" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget source="session.CurrentService" render="Label" position="269,39" size="73,30" backgroundColor="background1" transparent="1" font="Regular; 25" halign="right">
+      <convert type="ServiceInfo">VideoWidth</convert>
+    </widget>
+    <eLabel position="341,40" size="20,30" backgroundColor="background1" transparent="1" text="x" font="Regular; 20" halign="center" />
+    <widget source="session.CurrentService" render="Label" position="362,39" size="67,30" backgroundColor="background1" transparent="1" font="Regular; 25" halign="left">
+      <convert type="ServiceInfo">VideoHeight</convert>
+    </widget>
+    <eLabel text="SNR:" position="41,39" size="69,30" font="Regular; 25" backgroundColor="background1" foregroundColor="white" transparent="1" />
+    <widget source="session.FrontendStatus" render="Label" position="92,39" size="65,30" font="Regular; 25" backgroundColor="background1" transparent="1">
+      <convert type="FrontendInfo">SNR</convert>
+    </widget>
+    <widget source="session.FrontendInfo" render="FixedLabel" text="DVB-S" position="172,39" size="83,30" font="Regular; 25" backgroundColor="background1" transparent="1" foregroundColor="white" halign="center">
+      <convert type="FrontendInfo">TYPE</convert>
+      <convert type="ValueRange">0,0</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="session.FrontendInfo" render="FixedLabel" text="DVB-C" position="172,39" size="83,30" font="Regular; 25" backgroundColor="background1" transparent="1" foregroundColor="white" halign="center">
+      <convert type="FrontendInfo">TYPE</convert>
+      <convert type="ValueRange">1,1</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="session.FrontendInfo" render="FixedLabel" text="DVB-T" position="172,39" size="83,30" font="Regular; 25" backgroundColor="background1" transparent="1" foregroundColor="white" halign="center">
+      <convert type="FrontendInfo">TYPE</convert>
+      <convert type="ValueRange">2,2</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget backgroundColor="orange" position="41,591" render="FixedLabel" size="8,8" source="session.TunerInfo" zPosition="2">
+      <convert type="TunerInfo">TunerUseMask</convert>
+      <convert type="ValueBitTest">1</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget backgroundColor="orange" position="41,606" render="FixedLabel" size="8,8" source="session.TunerInfo" zPosition="2">
+      <convert type="TunerInfo">TunerUseMask</convert>
+      <convert type="ValueBitTest">2</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget backgroundColor="orange" position="41,620" render="FixedLabel" size="8,8" source="session.TunerInfo" zPosition="2">
+      <convert type="TunerInfo">TunerUseMask</convert>
+      <convert type="ValueBitTest">4</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget backgroundColor="orange" position="41,635" render="FixedLabel" size="8,8" source="session.TunerInfo" zPosition="2">
+      <convert type="TunerInfo">TunerUseMask</convert>
+      <convert type="ValueBitTest">8</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget backgroundColor="green" position="41,591" render="FixedLabel" size="8,8" source="session.FrontendInfo" zPosition="3">
+      <convert type="FrontendInfo">NUMBER</convert>
+      <convert type="ValueRange">0,0</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget backgroundColor="green" position="41,606" render="FixedLabel" size="8,8" source="session.FrontendInfo" zPosition="3">
+      <convert type="FrontendInfo">NUMBER</convert>
+      <convert type="ValueRange">1,1</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget backgroundColor="green" position="41,620" render="FixedLabel" size="8,8" source="session.FrontendInfo" zPosition="3">
+      <convert type="FrontendInfo">NUMBER</convert>
+      <convert type="ValueRange">2,2</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget backgroundColor="green" position="41,635" render="FixedLabel" size="8,8" source="session.FrontendInfo" zPosition="3">
+      <convert type="FrontendInfo">NUMBER</convert>
+      <convert type="ValueRange">3,3</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <ePixmap pixmap="Nowa/icons/ico_dolby_off.png" position="1156,598" size="60,35" zPosition="1" alphatest="blend" />
+    <widget source="session.CurrentService" render="Pixmap" pixmap="Nowa/icons/ico_dolby_on.png" position="1156,598" size="60,35" zPosition="2" alphatest="blend">
+      <convert type="ServiceInfo">IsMultichannel</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <ePixmap pixmap="Nowa/icons/ico_format_off.png" position="966,598" size="60,35" zPosition="1" alphatest="blend" />
+    <widget source="session.CurrentService" render="Pixmap" pixmap="Nowa/icons/ico_format_on.png" position="966,598" size="60,35" zPosition="2" alphatest="blend">
+      <convert type="ServiceInfo">IsWidescreen</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <ePixmap pixmap="Nowa/icons/ico_txt_off.png" position="1093,598" size="60,35" zPosition="1" alphatest="blend" />
+    <widget source="session.CurrentService" render="Pixmap" pixmap="Nowa/icons/ico_txt_on.png" position="1093,598" size="60,35" zPosition="2" alphatest="blend">
+      <convert type="ServiceInfo">HasTelext</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="session.CurrentService" render="Pixmap" pixmap="Nowa/icons/sub_on.png" position="572,-122" size="29,20" zPosition="2" alphatest="blend">
+      <convert type="ServiceInfo">SubservicesAvailable</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="session.CurrentService" render="Pixmap" pixmap="Nowa/icons/ico_hd_off.png" position="902,598" size="60,35" zPosition="1" alphatest="blend">
+      <convert type="ServiceInfo">VideoWidth</convert>
+      <convert type="ValueRange">0,720</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="session.CurrentService" render="Pixmap" pixmap="Nowa/icons/ico_hd_on.png" position="902,598" size="60,35" zPosition="2" alphatest="blend">
+      <convert type="ServiceInfo">VideoWidth</convert>
+      <convert type="ValueRange">721,1980</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <ePixmap pixmap="Nowa/icons/ico_crypt_off.png" position="1029,598" size="60,35" zPosition="1" alphatest="blend" />
+    <widget source="session.CurrentService" render="Pixmap" pixmap="Nowa/icons/ico_crypt_on.png" position="1029,598" size="60,35" zPosition="2" alphatest="blend">
+      <convert type="ServiceInfo">IsCrypted</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget backgroundColor="background1" font="Regular; 30" foregroundColor="lightgrey" noWrap="1" position="80,99" render="Label" size="524,39" source="session.Event_Now" transparent="1" zPosition="1" halign="left">
+      <convert type="EventName">Name</convert>
+    </widget>
+    <widget backgroundColor="background1" font="Regular; 30" foregroundColor="white" halign="right" position="608,99" render="Label" size="117,39" source="session.Event_Now" transparent="1" zPosition="1">
+      <convert type="EventTime">Remaining</convert>
+      <convert type="RemainingToText">InMinutes</convert>
+    </widget>
+    <widget backgroundColor="background3" font="Regular; 30" position="832,405" render="NowaHDRunningText" options="movetype=running,startpoint=0,direction=left,steptime=140,repeat=3,always=0,oneshot=1,startdelay=5000,wrap" size="393,39" source="session.Event_Next" transparent="1" zPosition="1" foregroundColor="white" halign="left">
+      <convert type="EventName">Name</convert>
+    </widget>
+    <eLabel backgroundColor="grey" position="39,147" size="682,2" zPosition="1" foregroundColor="background1" />
+    <widget pixmap="Nowa/back/event_prog.png" position="39,147" render="Progress" size="682,2" source="session.Event_Now" zPosition="7" transparent="1">
+      <convert type="EventTime">Progress</convert>
+    </widget>
+    <widget source="session.Event_Now" render="Label" position="34,157" size="691,287" font="Regular; 24" zPosition="1" backgroundColor="background1" foregroundColor="undcdcdc" transparent="1">
+      <convert type="EventName">ExtendedDescription</convert>
+    </widget>
+    <widget source="session.Event_Next" render="Label" position="301,451" size="922,114" font="Regular; 24" zPosition="1" backgroundColor="background3" foregroundColor="white" transparent="1">
+      <convert type="EventName">ExtendedDescription</convert>
+    </widget>
+    <eLabel backgroundColor="grey" position="261,40" size="2,30" zPosition="1" foregroundColor="black" />
+    <eLabel backgroundColor="grey" position="163,40" size="2,30" zPosition="1" foregroundColor="black" />
+    <eLabel backgroundColor="grey" position="435,40" size="2,30" zPosition="1" foregroundColor="black" />
+    <widget backgroundColor="black" foregroundColor="orange1" noWrap="1" font="Regular; 25" halign="right" render="Label" position="483,40" size="616,29" source="session.CurrentService" transparent="1" zPosition="1" valign="center">
+      <convert type="NowaHDCaidDisplay" />
+    </widget>
+    <widget alphatest="blend" render="MSNWeatherPixmap" position="845,112" size="95,95" source="session.MSNWeather" transparent="1" zPosition="8">
+      <convert type="MSNWeather">weathericon,current,/usr/share/enigma2/Nowa/weather_icons/,png</convert>
+    </widget>
+    <widget noWrap="1" backgroundColor="background1" font="Regular; 40" render="Label" position="944,101" size="67,61" source="session.MSNWeather" transparent="1" zPosition="8" halign="center" foregroundColor="grey">
+      <convert type="MSNWeather">temperature_current</convert>
+    </widget>
+    <widget noWrap="1" backgroundColor="background1" font="Regular; 18" foregroundColor="white" render="Label" position="943,191" size="90,21" source="session.MSNWeather" zPosition="8" halign="left" transparent="1">
+      <convert type="MSNWeather">temperature_heigh_low,current</convert>
+    </widget>
+    <widget noWrap="1" backgroundColor="background1" font="Regular; 19" foregroundColor="lightgrey" render="Label" position="943,167" size="123,23" source="session.MSNWeather" zPosition="3" halign="left" transparent="1">
+      <convert type="MSNWeather">temperature_text,current</convert>
+    </widget>
+    <widget noWrap="1" backgroundColor="background1" font="Regular; 18" foregroundColor="lightgrey" render="Label" position="852,219" size="83,23" source="session.MSNWeather" zPosition="3" halign="center" transparent="1">
+      <convert type="MSNWeather">weekshortday,day2</convert>
+    </widget>
+    <widget alphatest="blend" render="MSNWeatherPixmap" position="852,248" size="45,45" source="session.MSNWeather" transparent="1" zPosition="5">
+      <convert type="MSNWeather">weathericon,day2,/usr/share/enigma2/Nowa/weather_icons/,png</convert>
+    </widget>
+    <widget noWrap="1" backgroundColor="background1" font="Regular; 18" foregroundColor="white" render="Label" position="900,245" size="35,24" source="session.MSNWeather" zPosition="3" halign="right" transparent="1" valign="center">
+      <convert type="MSNWeather">temperature_high,day2</convert>
+    </widget>
+    <widget backgroundColor="background1" font="Regular; 18" foregroundColor="white" render="Label" position="900,269" size="35,24" source="session.MSNWeather" zPosition="3" halign="right" transparent="1" noWrap="1">
+      <convert type="MSNWeather">temperature_low,day2</convert>
+    </widget>
+    <widget noWrap="1" backgroundColor="background1" font="Regular; 18" foregroundColor="lightgrey" render="Label" position="952,219" size="83,23" source="session.MSNWeather" zPosition="3" halign="center" transparent="1">
+      <convert type="MSNWeather">weekshortday,day3</convert>
+    </widget>
+    <widget alphatest="blend" render="MSNWeatherPixmap" position="952,248" size="45,45" source="session.MSNWeather" transparent="1" zPosition="5">
+      <convert type="MSNWeather">weathericon,day3,/usr/share/enigma2/Nowa/weather_icons/,png</convert>
+    </widget>
+    <widget noWrap="1" backgroundColor="background1" font="Regular; 18" foregroundColor="white" render="Label" position="1000,245" size="35,24" source="session.MSNWeather" zPosition="3" halign="right" transparent="1" valign="center">
+      <convert type="MSNWeather">temperature_high,day3</convert>
+    </widget>
+    <widget backgroundColor="background1" font="Regular; 18" foregroundColor="white" render="Label" position="1000,269" size="35,24" source="session.MSNWeather" zPosition="3" halign="right" transparent="1" noWrap="1">
+      <convert type="MSNWeather">temperature_low,day3</convert>
+    </widget>
+    <widget noWrap="1" backgroundColor="background1" font="Regular; 18" foregroundColor="lightgrey" render="Label" position="1052,219" size="83,23" source="session.MSNWeather" zPosition="3" halign="center" transparent="1">
+      <convert type="MSNWeather">weekshortday,day4</convert>
+    </widget>
+    <widget alphatest="blend" render="MSNWeatherPixmap" position="1052,248" size="45,45" source="session.MSNWeather" transparent="1" zPosition="5">
+      <convert type="MSNWeather">weathericon,day4,/usr/share/enigma2/Nowa/weather_icons/,png</convert>
+    </widget>
+    <widget noWrap="1" backgroundColor="background1" font="Regular; 18" foregroundColor="white" render="Label" position="1100,245" size="35,24" source="session.MSNWeather" zPosition="3" halign="right" transparent="1" valign="center">
+      <convert type="MSNWeather">temperature_high,day4</convert>
+    </widget>
+    <widget backgroundColor="background1" font="Regular; 18" foregroundColor="white" render="Label" position="1100,269" size="35,24" source="session.MSNWeather" zPosition="3" halign="right" transparent="1" noWrap="1">
+      <convert type="MSNWeather">temperature_low,day4</convert>
+    </widget>
+    <widget noWrap="1" backgroundColor="background1" font="Regular; 18" foregroundColor="lightgrey" render="Label" position="1152,219" size="83,23" source="session.MSNWeather" zPosition="3" halign="center" transparent="1">
+      <convert type="MSNWeather">weekshortday,day5</convert>
+    </widget>
+    <widget alphatest="blend" render="MSNWeatherPixmap" position="1152,248" size="45,45" source="session.MSNWeather" transparent="1" zPosition="5">
+      <convert type="MSNWeather">weathericon,day5,/usr/share/enigma2/Nowa/weather_icons/,png</convert>
+    </widget>
+    <widget noWrap="1" backgroundColor="background1" font="Regular; 18" foregroundColor="white" render="Label" position="1200,245" size="35,24" source="session.MSNWeather" zPosition="3" halign="right" transparent="1" valign="center">
+      <convert type="MSNWeather">temperature_high,day5</convert>
+    </widget>
+    <widget backgroundColor="background1" font="Regular; 18" foregroundColor="white" render="Label" position="1200,269" size="35,24" source="session.MSNWeather" zPosition="3" halign="right" transparent="1" noWrap="1">
+      <convert type="MSNWeather">temperature_low,day5</convert>
+    </widget>
+    <widget noWrap="1" backgroundColor="background1" font="Regular; 28" foregroundColor="lightgrey" render="Label" position="1005,111" size="229,34" source="session.MSNWeather" zPosition="3" halign="right" transparent="1">
+      <convert type="MSNWeather">city</convert>
+    </widget>
+    <widget noWrap="1" backgroundColor="background1" font="Regular; 21" foregroundColor="lightgrey" render="Label" position="1174,145" size="35,30" source="session.MSNWeather" zPosition="3" halign="right" transparent="1">
+      <convert type="MSNWeather">humidity</convert>
+    </widget>
+    <eLabel text="Humidity :" position="1070,145" size="115,30" zPosition="5" halign="left" font="Regular; 21" backgroundColor="background1" transparent="1" />
+    <eLabel text="%" position="1204,145" size="30,30" zPosition="5" halign="right" font="Regular; 21" backgroundColor="background1" transparent="1" />
+  </screen>
+  <screen name="MoviePlayer" position="0,0" size="1280,720" title="InfoBar" flags="wfNoBorder" backgroundColor="transparent">
+    <ePixmap position="0,0" zPosition="-2" size="1280,720" pixmap="Nowa/back/info_video.png" />
+    <widget source="session.CurrentService" render="Label" position="315,564" size="578,47" font="Regular; 32" valign="center" noWrap="1" backgroundColor="background1" transparent="1">
+      <convert type="ServiceName">Name</convert>
+    </widget>
+    <ePixmap pixmap="Nowa/icons/ico_dolby_off.png" position="1052,569" size="60,35" zPosition="1" alphatest="blend" />
+    <widget source="session.CurrentService" render="Pixmap" pixmap="Nowa/icons/ico_dolby_on.png" position="1052,569" size="60,35" zPosition="2" alphatest="blend">
+      <convert type="ServiceInfo">IsMultichannel</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <ePixmap pixmap="Nowa/icons/ico_format_off.png" position="1116,569" size="60,35" zPosition="1" alphatest="blend" />
+    <widget source="session.CurrentService" render="Pixmap" pixmap="Nowa/icons/ico_format_on.png" position="1116,569" size="60,35" zPosition="2" alphatest="blend">
+      <convert type="ServiceInfo">IsWidescreen</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <ePixmap pixmap="Nowa/icons/ico_hd_off.png" position="1180,569" size="60,35" zPosition="1" alphatest="blend" />
+    <widget source="session.CurrentService" render="Pixmap" pixmap="Nowa/icons/ico_hd_on.png" position="1180,569" size="60,35" zPosition="2" alphatest="blend">
+      <convert type="ServiceInfo">VideoWidth</convert>
+      <convert type="ValueRange">721,1980</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="session.CurrentService" render="Label" position="406,602" size="100,28" font="Regular;24" halign="right" valign="center" backgroundColor="background1" transparent="1">
+      <convert type="ServicePosition">Position</convert>
+    </widget>
+    <widget source="session.CurrentService" render="PositionGauge" position="518,614" size="440,7" transparent="1">
+      <convert type="ServicePosition">Gauge</convert>
+    </widget>
+    <widget source="session.CurrentService" render="Progress" position="516,616" size="440,3" backgroundColor="darkgrey1" borderWidth="0" transparent="1">
+      <convert type="ServicePosition">Position</convert>
+    </widget>
+    <widget source="session.CurrentService" render="Label" position="967,603" size="100,28" font="Regular;24" halign="left" valign="center" backgroundColor="background1" transparent="1">
+      <convert type="ServicePosition">Remaining</convert>
+    </widget>
+    <widget source="session.CurrentService" render="Label" position="906,568" size="139,36" font="Regular; 40" halign="right" valign="center" backgroundColor="background1" transparent="1" foregroundColor="white">
+      <convert type="ServicePosition">Length</convert>
+    </widget>
+  </screen>
+<screen name="ChannelSelection" position="0,0" size="1280,720" title="" backgroundColor="transparent" zPosition="0" flags="wfNoBorder">
+  <ePixmap position="0,0" size="1280,720" zPosition="-1" pixmap="Nowa/back/list.png" alphatest="on" transparent="1" />
+  <ePixmap position="763,41" size="520,307" zPosition="18" pixmap="Nowa/back/uppig.png" alphatest="blend" transparent="1" />
+  <widget source="session.VideoPicture" render="Pig" position="778,57" size="490,274" zPosition="3" backgroundColor="transparent" />
+  <widget source="Title" render="Label" position="61,4" size="570,34" font="Replacement; 22" backgroundColor="background1" halign="left" transparent="1" foregroundColor="greya" />
+  <widget source="global.CurrentTime" render="Label" position="1194,3" size="75,30" font="Replacement; 24" backgroundColor="background1" zPosition="3" halign="left" transparent="1" foregroundColor="greya">
+    <convert type="ClockToText">Default</convert>
+  </widget>
+  <widget source="global.CurrentTime" render="Label" position="764,3" size="137,30" font="Replacement; 24" backgroundColor="background1" zPosition="3" halign="left" transparent="1" foregroundColor="greya">
+    <convert type="ClockToText">Format:%d.%m.%Y</convert>
+  </widget>
+  <widget name="list" colorEventProgressbarBorder="white" colorEventProgressbarBorderSelected="white" enableWrapAround="1" scrollbarMode="showOnDemand" position="7,47" size="747,510" backgroundColor="black" foregroundColor="white" colorServiceDescription="secondFG" colorServiceDescriptionSelected="white" foregroundColorServiceNotAvail="#737373" serviceItemHeight="30" serviceNumberFont="Regular;23" serviceNameFont="Replacement;23" serviceInfoFont="Replacement;23" transparent="1" />
+  <widget source="ServiceEvent" render="NowaHDRunningText" options="movetype=running,startpoint=0,direction=left,steptime=140,repeat=3,always=0,oneshot=1,startdelay=5000,wrap" position="774,350" zPosition="1" size="496,55" font="Replacement; 35" valign="center" foregroundColor="secondFG" backgroundColor="black" transparent="1" halign="center">
+    <convert type="EventName">Name</convert>
+  </widget>
+  <widget source="ServiceEvent" render="Label" position="774,410" zPosition="1" size="111,42" font="Replacement; 28" backgroundColor="black" transparent="1" foregroundColor="white">
+    <convert type="EventTime">StartTime</convert>
+    <convert type="ClockToText">
+    </convert>
+  </widget>
+  <widget source="ServiceEvent" render="Label" position="1152,410" zPosition="1" size="120,42" font="Replacement; 28" backgroundColor="black" transparent="1" foregroundColor="white" halign="right">
+    <convert type="EventTime">EndTime</convert>
+    <convert type="ClockToText">Format: %H:%M</convert>
+  </widget>
+  <widget source="ServiceEvent" render="Progress" position="893,431" size="250,5" borderWidth="0" backgroundColor="white" transparent="1" zPosition="5">
+    <convert type="EventTime">Progress</convert>
+  </widget>
+  <eLabel backgroundColor="grey" position="893,433" size="250,1" zPosition="1" foregroundColor="background1" />
+  <widget source="ServiceEvent" render="NowaHDRunningText" options="movetype=running,startpoint=0,direction=top,steptime=140,repeat=3,always=0,oneshot=1,startdelay=5000,wrap" position="10,565" size="921,114" font="bold; 22" foregroundColor="darkgrey" backgroundColor="greya" transparent="1">
+    <convert type="EventName">ExtendedDescription</convert>
+  </widget>
+  <widget source="ServiceEvent" render="NowaHDNextEvent" position="774,481" size="496,76" font="Replacement;23" backgroundColor="black" foregroundColor="un808888" transparent="1">
+  </widget>
+  <ePixmap pixmap="Nowa/buttons/red.png" position="5,687" size="35,30" alphatest="on" />
+  <ePixmap pixmap="Nowa/buttons/green.png" position="199,687" size="35,30" alphatest="on" />
+  <ePixmap pixmap="Nowa/buttons/yellow.png" position="390,688" size="35,30" alphatest="on" />
+  <ePixmap pixmap="Nowa/buttons/blue.png" position="582,687" size="35,30" alphatest="on" />
+  <widget name="key_red" position="30,687" zPosition="1" size="164,30" font="Replacement; 22" halign="center" backgroundColor="greya" transparent="1" foregroundColor="darkgrey1" />
+  <widget name="key_green" position="222,687" zPosition="1" size="164,30" font="Replacement; 22" halign="center" backgroundColor="greya" transparent="1" foregroundColor="darkgrey1" />
+  <widget name="key_yellow" position="413,688" zPosition="1" size="164,30" font="Replacement; 22" halign="center" backgroundColor="greya" transparent="1" foregroundColor="darkgrey1" />
+  <widget name="key_blue" position="604,687" zPosition="1" size="164,30" font="Replacement; 24" halign="center" backgroundColor="greya" transparent="1" foregroundColor="darkgrey1" />
+</screen>
+  <screen name="BouquetSelector" position="354,201" size="600,350" title="Choose bouquet">
+    <widget name="menu" position="3,10" size="594,340" scrollbarMode="showOnDemand" itemHeight="35" transparent="1" />
+  </screen>
+  <screen name="EventView" position="0,-20" size="1280,720" zPosition="10" title="Eventview" backgroundColor="transparent" flags="wfNoBorder">
+    <ePixmap position="0,0" size="1278,720" zPosition="-1" pixmap="Nowa/back/event.png" />
+    <widget name="epg_description" position="271,241" size="739,397" font="Regular; 24" backgroundColor="background1" transparent="1" foregroundColor="lightgrey" />
+    <widget name="channel" position="282,115" size="300,42" zPosition="1" halign="left" font="Regular; 35" backgroundColor="background1" transparent="1" foregroundColor="lightgrey" />
+    <widget name="datetime" position="709,192" size="300,30" zPosition="1" halign="right" font="Regular; 24" backgroundColor="background1" transparent="1" foregroundColor="grey" />
+    <widget name="duration" position="709,160" size="300,30" zPosition="1" halign="right" font="Regular; 24" backgroundColor="background1" transparent="1" foregroundColor="grey" />
+    <eLabel backgroundColor="red" position="273,116" size="3,40" zPosition="1" foregroundColor="un232a33" />
+    <widget source="session.Event_Now" render="Label" position="273,167" size="580,45" font="Regular; 30" halign="left" backgroundColor="background1" transparent="1" noWrap="1">
+      <convert type="EventName">Name</convert>
+    </widget>
+    <widget source="session.Event_Now" render="Progress" position="271,228" size="739,5" borderWidth="0" backgroundColor="white" transparent="1" zPosition="5">
+      <convert type="EventTime">Progress</convert>
+    </widget>
+    <eLabel backgroundColor="grey" position="271,230" size="739,1" zPosition="1" foregroundColor="background1" />
+    <ePixmap pixmap="Nowa/buttons/red.png" position="273,665" size="35,30" alphatest="on" />
+    <ePixmap pixmap="Nowa/buttons/green.png" position="461,665" size="183,35" alphatest="on" />
+    <ePixmap pixmap="Nowa/buttons/yellow.png" position="642,665" size="35,30" alphatest="on" />
+    <ePixmap pixmap="Nowa/buttons/blue.png" position="829,665" size="35,30" alphatest="on" />
+    <widget name="key_red" position="303,665" zPosition="1" size="150,30" font="Regular; 22" halign="center" backgroundColor="transpBlack" transparent="1" />
+    <widget name="key_green" position="491,665" zPosition="1" size="146,30" font="Regular; 22" halign="center" backgroundColor="lightgrey" transparent="1" />
+    <widget name="key_yellow" position="673,665" zPosition="1" size="150,30" font="Regular; 22" halign="center" backgroundColor="transpBlack" transparent="1" />
+    <widget name="key_blue" position="860,665" zPosition="1" size="150,30" font="Regular; 24" halign="center" backgroundColor="transpBlack" transparent="1" />
+  </screen>
+  <screen name="EPGSelection" position="0,-15" size="1280,730" zPosition="10" title="EPG Selection" backgroundColor="transparent" flags="wfNoBorder">
+    <ePixmap position="  0, 0" size="1280,730" zPosition="-1" pixmap="Nowa/back/eventlist.png" />
+    <eLabel backgroundColor="red" position="58,116" size="3,40" zPosition="1" foregroundColor="un232a33" />
+    <widget source="global.CurrentTime" render="Label" position="57,156" size="121,29" font="Regular; 20" backgroundColor="background1" transparent="1" foregroundColor="lightgrey" halign="left">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="114,157" size="130,29" font="Regular; 20" backgroundColor="background1" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget name="list" enableWrapAround="1" position="57,189" size="601,455" itemHeight="35" scrollbarMode="showOnDemand" backgroundColor="background1" transparent="1" />
+    <widget source="Event" render="Label" position="668,188" size="557,455" font="Regular; 24" backgroundColor="background1" transparent="1" foregroundColor="lightgrey">
+      <convert type="EventName">ExtendedDescription</convert>
+    </widget>
+    <widget source="Service" render="Label" position="67,115" size="326,42" font="Regular; 30" backgroundColor="background1" transparent="1">
+      <convert type="ServiceName">Name</convert>
+    </widget>
+    <ePixmap pixmap="Nowa/buttons/red.png" position="414,118" size="30,30" alphatest="on" />
+    <ePixmap pixmap="Nowa/buttons/green.png" position="599,118" size="30,30" alphatest="on" />
+    <ePixmap pixmap="Nowa/buttons/yellow.png" position="787,118" size="30,30" alphatest="on" />
+    <ePixmap pixmap="Nowa/buttons/blue.png" position="972,118" size="30,30" alphatest="on" transparent="1" />
+    <widget name="key_red" position="446,118" zPosition="1" size="150,30" font="Regular; 22" halign="center" backgroundColor="background1" transparent="1" />
+    <widget name="key_green" position="632,118" zPosition="1" size="150,30" font="Regular; 22" halign="center" backgroundColor="background1" transparent="1" />
+    <widget name="key_yellow" position="819,118" zPosition="1" size="150,30" font="Regular; 22" halign="center" backgroundColor="background1" transparent="1" />
+    <widget name="key_blue" position="1005,118" zPosition="1" size="164,30" font="Regular; 24" halign="center" backgroundColor="background1" transparent="1" />
+  </screen>
+  <screen name="EPGSelectionMulti" position="0,-15" size="1280,730" title="EPG Selection" backgroundColor="transparent" flags="wfNoBorder">
+    <ePixmap position="0,0" size="1280,730" zPosition="-1" pixmap="Nowa/back/eventlist.png" />
+    <eLabel backgroundColor="red" position="58,116" size="3,40" zPosition="1" foregroundColor="un232a33" />
+    <widget source="global.CurrentTime" render="Label" position="57,156" size="121,29" font="Regular; 20" backgroundColor="background1" transparent="1" foregroundColor="lightgrey" halign="left">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="114,157" size="130,29" font="Regular; 20" backgroundColor="background1" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget name="list" enableWrapAround="1" position="57,189" size="601,455" itemHeight="35" scrollbarMode="showOnDemand" backgroundColor="background1" transparent="1" />
+    <widget source="Service" render="Label" position="67,115" size="326,42" font="Regular; 30" backgroundColor="background1" transparent="1">
+      <convert type="ServiceName">Name</convert>
+    </widget>
+    <widget source="Event" render="Label" position="668,188" size="557,455" font="Regular; 24" backgroundColor="background1" transparent="1" foregroundColor="lightgrey">
+      <convert type="EventName">ExtendedDescription</convert>
+    </widget>
+    <eLabel text="MENU" position="1140,155" size="85,30" font="Regular; 23" backgroundColor="background1" foregroundColor="white" transparent="1" valign="center" halign="center" />
+    <eLabel text="INFO" position="1050,155" size="85,30" font="Regular; 23" backgroundColor="background1" foregroundColor="white" transparent="1" halign="center" />
+    <widget name="date" position="388,156" size="268,30" font="Regular;24" valign="center" halign="right" backgroundColor="background1" transparent="1" foregroundColor="lightgrey" />
+    <ePixmap pixmap="Nowa/buttons/red.png" position="414,118" size="30,30" alphatest="on" />
+    <ePixmap pixmap="Nowa/buttons/green.png" position="599,118" size="30,30" alphatest="on" />
+    <ePixmap pixmap="Nowa/buttons/yellow.png" position="787,118" size="30,30" alphatest="on" />
+    <ePixmap pixmap="Nowa/buttons/blue.png" position="972,118" size="30,30" alphatest="on" transparent="1" />
+    <widget name="key_red" position="446,118" zPosition="1" size="150,30" font="Regular; 22" halign="center" backgroundColor="background1" transparent="1" />
+    <widget name="key_green" position="632,118" zPosition="1" size="150,30" font="Regular; 22" halign="center" backgroundColor="background1" transparent="1" />
+    <widget name="key_yellow" position="819,118" zPosition="1" size="150,30" font="Regular; 22" halign="center" backgroundColor="background1" transparent="1" />
+    <widget name="key_blue" position="1005,118" zPosition="1" size="164,30" font="Regular; 24" halign="center" backgroundColor="background1" transparent="1" />
+  </screen>
+  <screen name="GraphMultiEPG" position="center,85" size="1200,600" title="Electronic Program Guide">
+    <widget source="Event" render="Label" position="0,483" size="80,43" font="Regular; 28" backgroundColor="background1" transparent="1" foregroundColor="background">
+      <convert type="EventTime">StartTime</convert>
+      <convert type="ClockToText">
+      </convert>
+    </widget>
+    <eLabel backgroundColor="grey" position="0,5" size="1200,2" zPosition="1" foregroundColor="background1" />
+    <eLabel backgroundColor="grey" position="0,412" size="1200,2" zPosition="1" foregroundColor="background1" />
+    <eLabel backgroundColor="grey" position="414,595" size="785,2" zPosition="1" foregroundColor="background1" />
+    <widget source="Event" render="Label" position="301,482" size="99,43" font="Regular; 28" backgroundColor="background1" transparent="1" halign="right" foregroundColor="background">
+      <convert type="EventTime">EndTime</convert>
+      <convert type="ClockToText">Format: %H:%M</convert>
+    </widget>
+    <widget source="session.Event_Now" render="Progress" pixmap="Nowa/back/event_prog.png" position="76,501" size="241,6" borderWidth="1" borderColor="grey" zPosition="7" transparent="1">
+      <convert type="EventTime">Progress</convert>
+    </widget>
+    <widget source="Event" render="Label" position="414,418" size="785,174" font="Regular; 23" foregroundColor="lightgrey" backgroundColor="background1" transparent="1">
+      <convert type="EventName">ExtendedDescription</convert>
+    </widget>
+    <widget source="Event" render="Label" position="0,418" font="Regular;28" size="400,67" zPosition="1" backgroundColor="background1" transparent="1" halign="center">
+      <convert type="EventName">Name</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="250,538" size="149,29" font="Regular; 23" backgroundColor="background1" transparent="1" foregroundColor="lightgrey" halign="right">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="2,538" size="146,29" font="Regular; 23" backgroundColor="background1" transparent="1" foregroundColor="lightgrey" halign="left" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget name="timeline_text" position="1,8" size="1196,22" selectionDisabled="1" transparent="1" />
+    <widget name="list" position="2,31" size="1196,380" scrollbarMode="showOnDemand" transparent="1" />
+    <widget name="timeline_now" position="2,32" zPosition="2" size="15,380" pixmap="Nowa/back/timeline-now.png" alphatest="blend" />
+    <ePixmap pixmap="Nowa/buttons/red.png" position="0,572" size="35,30" alphatest="on" />
+    <ePixmap pixmap="Nowa/buttons/green.png" position="204,572" size="35,30" alphatest="on" />
+    <widget name="key_red" position="36,572" zPosition="1" size="164,30" font="Regular; 22" halign="center" backgroundColor="background1" transparent="1" />
+    <widget name="key_green" position="241,572" zPosition="1" size="164,30" font="Regular; 22" halign="center" backgroundColor="background1" transparent="1" />
+  </screen>
+  <screen name="Menu" position="0,0" size="1280,720" title="Menu" backgroundColor="transparent" flags="wfNoBorder">
+    <ePixmap position="0,0" size="1280,720" zPosition="-1" pixmap="Nowa/back/menu.png" />
+    <widget source="Title" render="Label" halign="left" position="40,39" size="536,103" font="Regular; 78" backgroundColor="background1" transparent="1" />
+    <widget source="global.CurrentTime" render="Label" position="1115,104" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="1110,60" size="130,45" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget source="menu" render="Listbox" enableWrapAround="1" position="98,164" size="480,510" zPosition="1" scrollbarMode="showNever" transparent="1">
+      <convert type="TemplatedMultiContent">
+				{"template": [
+					MultiContentEntryText(pos = (0,0), size = (480, 60), flags = RT_HALIGN_CENTER, text = 0),
+				],
+				"fonts": [gFont("Regular", 40)],
+				"itemHeight": 60
+				}
+			</convert>
+    </widget>
+  </screen>
+  <screen name="menu_mainmenu" position="0,0" size="1280,720" title="Menu" backgroundColor="transparent" flags="wfNoBorder">
+    <ePixmap position="0,0" size="1280,720" zPosition="-1" pixmap="Nowa/back/menu.png" />
+    <widget source="Title" render="Label" halign="left" position="40,39" size="536,103" font="Regular; 78" backgroundColor="background1" transparent="1" />
+    <widget source="global.CurrentTime" render="Label" position="1115,104" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="1110,60" size="130,45" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget source="menu" render="Listbox" enableWrapAround="1" position="98,164" size="478,483" zPosition="1" scrollbarMode="showNever" transparent="1">
+      <convert type="TemplatedMultiContent">
+				{"template": [
+					MultiContentEntryText(pos = (0,0), size = (478, 60), flags = RT_HALIGN_CENTER, text = 0),
+				],
+				"fonts": [gFont("Regular", 36)],
+				"itemHeight": 60
+				}
+			</convert>
+    </widget>
+    <widget source="menu" render="Pixmap" pixmap="Nowa/menu/hbbtv.png" position="750,271" size="250,250" zPosition="2" alphatest="blend">
+      <convert type="MenuEntryCompare">hbbtv_browser</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="menu" render="Pixmap" pixmap="Nowa/menu/webbrowser.png" position="750,271" size="250,250" zPosition="2" alphatest="blend">
+      <convert type="MenuEntryCompare">web_browser</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="menu" render="Pixmap" pixmap="Nowa/menu/dvd.png" position="750,271" size="250,250" zPosition="2" alphatest="blend">
+      <convert type="MenuEntryCompare">media_player</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="menu" render="Pixmap" pixmap="Nowa/menu/dvd.png" position="750,271" size="250,250" zPosition="2" alphatest="blend">
+      <convert type="MenuEntryCompare">dvd_player</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="menu" render="Pixmap" pixmap="Nowa/menu/info.png" position="750,271" size="250,250" zPosition="2" alphatest="blend">
+      <convert type="MenuEntryCompare">info_screen</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="menu" render="Pixmap" pixmap="Nowa/menu/timer.png" position="750,271" size="250,250" zPosition="2" alphatest="blend">
+      <convert type="MenuEntryCompare">timer_edit</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="menu" render="Pixmap" pixmap="Nowa/menu/plugin.png" position="750,271" size="250,250" zPosition="2" alphatest="blend">
+      <convert type="MenuEntryCompare">plugin_selection</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="menu" render="Pixmap" pixmap="Nowa/menu/settings.png" position="750,271" size="250,250" zPosition="2" alphatest="blend">
+      <convert type="MenuEntryCompare">setup_selection</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="menu" render="Pixmap" pixmap="Nowa/menu/standby.png" position="750,271" size="250,250" zPosition="2" alphatest="blend">
+      <convert type="MenuEntryCompare">standby_restart_list</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+  </screen>
+  <screen name="menu_setup" position="0,0" size="1280,720" title="Menu" backgroundColor="transparent" flags="wfNoBorder">
+    <ePixmap position="0,0" size="1280,720" zPosition="-1" pixmap="Nowa/back/menu.png" />
+    <ePixmap position="750,271" size="250,250" zPosition="2" pixmap="Nowa/menu/settings.png" alphatest="blend" />
+    <widget source="Title" render="Label" halign="left" position="40,39" size="536,103" font="Regular; 78" backgroundColor="background1" transparent="1" />
+    <widget source="global.CurrentTime" render="Label" position="1115,104" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="1110,60" size="130,45" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget source="menu" render="Listbox" enableWrapAround="1" position="98,164" size="478,483" zPosition="1" scrollbarMode="showNever" transparent="1">
+      <convert type="TemplatedMultiContent">
+				{"template": [
+					MultiContentEntryText(pos = (0,0), size = (478, 60), flags = RT_HALIGN_CENTER, text = 0),
+				],
+				"fonts": [gFont("Regular", 36)],
+				"itemHeight": 60
+				}
+			</convert>
+    </widget>
+  </screen>
+  <screen name="menu_system" position="0,0" size="1280,720" title="Menu" backgroundColor="transparent" flags="wfNoBorder">
+    <ePixmap position="0,0" size="1280,720" zPosition="-1" pixmap="Nowa/back/menu.png" />
+    <ePixmap position="750,271" size="250,250" zPosition="2" pixmap="Nowa/menu/plugin.png" alphatest="blend" />
+    <widget source="Title" render="Label" halign="left" position="40,39" size="536,103" font="Regular; 78" backgroundColor="background1" transparent="1" />
+    <widget source="global.CurrentTime" render="Label" position="1115,104" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="1110,60" size="130,45" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget source="menu" render="Listbox" enableWrapAround="1" position="98,164" size="478,483" zPosition="1" scrollbarMode="showNever" transparent="1">
+      <convert type="TemplatedMultiContent">
+				{"template": [
+					MultiContentEntryText(pos = (0,0), size = (480, 60), flags = RT_HALIGN_CENTER, text = 0),
+				],
+				"fonts": [gFont("Regular", 36)],
+				"itemHeight": 60
+				}
+			</convert>
+    </widget>
+  </screen>
+  <screen name="menu_merlin" position="0,0" size="1280,720" title="" backgroundColor="transparent" flags="wfNoBorder">
+    <ePixmap position="0,0" size="1280,720" zPosition="-1" pixmap="Nowa/back/menu.png" />
+    <ePixmap position="750,271" size="250,250" zPosition="2" pixmap="Nowa/menu/merlin.png" alphatest="blend" />
+    <widget source="Title" render="Label" halign="left" position="40,39" size="536,103" font="Regular; 78" backgroundColor="background1" transparent="1" />
+    <widget source="global.CurrentTime" render="Label" position="1115,104" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="1110,60" size="130,45" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget source="menu" render="Listbox" enableWrapAround="1" position="98,164" size="478,483" zPosition="1" scrollbarMode="showNever" transparent="1">
+      <convert type="TemplatedMultiContent">
+				{"template": [
+					MultiContentEntryText(pos = (0,0), size = (480, 60), flags = RT_HALIGN_CENTER, text = 0),
+				],
+				"fonts": [gFont("Regular", 36)],
+				"itemHeight": 60
+				}
+			</convert>
+    </widget>
+  </screen>
+  <screen name="menu_information" position="0,0" size="1280,720" title="Main menu" backgroundColor="transparent" flags="wfNoBorder">
+    <ePixmap position="0,0" size="1280,720" zPosition="-1" pixmap="Nowa/back/menu.png" />
+    <widget source="Title" render="Label" halign="left" position="40,39" size="536,103" font="Regular; 78" backgroundColor="background1" transparent="1" />
+    <widget source="global.CurrentTime" render="Label" position="1115,104" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="1110,60" size="130,45" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget source="menu" render="Listbox" enableWrapAround="1" position="98,164" size="478,483" zPosition="1" scrollbarMode="showNever" transparent="1">
+      <convert type="TemplatedMultiContent">
+				{"template": [
+					MultiContentEntryText(pos = (0,0), size = (480, 60), flags = RT_HALIGN_CENTER, text = 0),
+				],
+				"fonts": [gFont("Regular", 36)],
+				"itemHeight": 60
+				}
+			</convert>
+    </widget>
+  </screen>
+  <screen name="menu_shutdown" position="0,0" size="1280,720" title="Menu Shutdown" backgroundColor="transparent" flags="wfNoBorder">
+    <ePixmap position="0,0" size="1280,720" zPosition="-1" pixmap="Nowa/back/menu.png" />
+    <widget source="Title" render="Label" halign="left" position="40,39" size="754,103" font="Regular; 78" backgroundColor="background1" transparent="1" />
+    <ePixmap position="750,271" size="250,250" zPosition="2" pixmap="Nowa/menu/sleep.png" alphatest="blend" />
+    <widget source="global.CurrentTime" render="Label" position="1115,104" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="1110,60" size="130,45" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget source="menu" render="Listbox" enableWrapAround="1" position="98,164" size="478,483" zPosition="1" scrollbarMode="showNever" transparent="1">
+      <convert type="TemplatedMultiContent">
+				{"template": [ MultiContentEntryText(pos = (0,0), size = (480, 60), flags = RT_HALIGN_CENTER, text = 0),
+				],
+				"fonts": [gFont("Regular", 36)],
+				"itemHeight": 60
+				}
+			</convert>
+    </widget>
+  </screen>
+  <screen name="menu_scan" position="0,0" size="1280,720" title="Main menu" backgroundColor="transparent" flags="wfNoBorder">
+    <ePixmap position="0,0" size="1280,720" zPosition="-1" pixmap="Nowa/back/menu.png" />
+    <widget source="Title" render="Label" halign="left" position="40,39" size="536,103" font="Regular; 78" backgroundColor="background1" transparent="1" />
+    <ePixmap position="750,271" size="250,250" zPosition="2" pixmap="Nowa/menu/service_searching_selection.png" alphatest="blend" />
+    <widget source="global.CurrentTime" render="Label" position="1115,104" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="1110,60" size="130,45" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget source="menu" render="Listbox" enableWrapAround="1" position="98,164" size="478,483" zPosition="1" scrollbarMode="showNever" transparent="1">
+      <convert type="TemplatedMultiContent">
+				{"template": [
+					MultiContentEntryText(pos = (0,0), size = (480, 60), flags = RT_HALIGN_CENTER, text = 0),
+				],
+				"fonts": [gFont("Regular", 36)],
+				"itemHeight": 60
+				}
+			</convert>
+    </widget>
+  </screen>
+  <screen name="Setup" position="0,0" size="1280,730" title="Setup" backgroundColor="transparent" flags="wfNoBorder">
+    <ePixmap position="0,0" size="1278,720" zPosition="-1" pixmap="Nowa/back/menulist.png" />
+    <widget source="Title" render="Label" halign="left" position="40,39" size="536,103" font="Regular; 78" backgroundColor="background1" transparent="1" />
+    <widget name="config" enableWrapAround="1" position="49,160" size="649,491" zPosition="1" itemHeight="35" scrollbarMode="showOnDemand" transparent="1" />
+    <widget source="global.CurrentTime" render="Label" position="1115,104" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="1110,60" size="130,45" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <ePixmap pixmap="Nowa/buttons/red.png" position="57,667" size="35,30" alphatest="on" />
+    <ePixmap pixmap="Nowa/buttons/green.png" position="265,667" size="35,30" alphatest="on" />
+    <widget source="key_red" render="Label" position="92,667" zPosition="1" size="164,30" font="Regular;24" halign="center" backgroundColor="background1" transparent="1" />
+    <widget source="key_green" render="Label" position="300,667" zPosition="1" size="164,30" font="Regular;24" halign="center" backgroundColor="background1" transparent="1" />
+  </screen>
+  <screen name="PluginBrowser" position="0,0" size="1280,720" title="Plugin browser" backgroundColor="transparent" flags="wfNoBorder">
+    <ePixmap position="0,0" size="1280,720" zPosition="-1" pixmap="Nowa/back/pb.png" />
+    <widget source="global.CurrentTime" render="Label" position="1115,104" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="1110,60" size="130,45" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget source="Title" render="Label" halign="left" position="40,39" size="536,103" font="Regular; 78" backgroundColor="background1" transparent="1" />
+    <widget name="list" position="76,159" size="532,502" scrollbarMode="showOnDemand" itemHeight="50" transparent="1" />
+    <ePixmap pixmap="Nowa/buttons/red.png" position="78,667" size="35,30" alphatest="on" />
+    <ePixmap pixmap="Nowa/buttons/green.png" position="338,667" size="35,30" alphatest="on" />
+    <widget name="red" position="113,667" zPosition="1" size="218,30" font="Regular;24" halign="center" valign="center" backgroundColor="background1" transparent="1" />
+    <widget name="green" position="374,667" zPosition="1" size="218,30" font="Regular;24" halign="center" backgroundColor="background1" transparent="1" />
+  </screen>
+  <screen name="ChoiceBox" position="0,0" size="1280,720" title="ChoiceBox" backgroundColor="transparent" flags="wfNoBorder">
+    <ePixmap position="0,0" size="1280,720" pixmap="Nowa/back/choixbox.png" backgroundColor="transparent" zPosition="-1" />
+    <widget source="Title" render="Label" halign="left" position="40,39" size="536,103" font="Regular; 78" backgroundColor="background1" transparent="1" />
+    <widget source="global.CurrentTime" render="Label" position="1115,104" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="1110,60" size="130,45" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <ePixmap pixmap="Nowa/menu/choicebox.png" zPosition="2" position="750,271" size="250,250" alphatest="blend" />
+    <widget name="text" position="46,668" size="455,26" font="Regular;26" foregroundColor="white" backgroundColor="background1" transparent="1" />
+    <widget name="list" position="46,160" size="455,491" zPosition="1" itemHeight="35" scrollbarMode="showOnDemand" foregroundColor="white" transparent="1" />
+  </screen>
+  <screen name="ChannelContextMenu" position="0,0" size="1280,720" title="Choose bouquet" backgroundColor="transparent" flags="wfNoBorder">
+    <ePixmap position="0,0" size="1278,720" zPosition="-1" pixmap="Nowa/back/menulist.png" />
+    <widget source="Title" render="Label" halign="left" position="40,39" size="616,103" font="Regular; 78" backgroundColor="background1" transparent="1" />
+    <widget name="menu" enableWrapAround="1" position="49,160" size="649,491" zPosition="1" itemHeight="35" scrollbarMode="showOnDemand" transparent="1" />
+    <widget source="global.CurrentTime" render="Label" position="1115,104" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="1110,60" size="130,45" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+  </screen>
+  <screen name="ChannelSelectionDisplaySettings" position="0,0" size="1280,720" title="ChannelSelection Display Settings" backgroundColor="transparent" flags="wfNoBorder">
+    <ePixmap position="0,0" size="1278,720" zPosition="-1" pixmap="Nowa/back/menulist.png" />
+    <widget source="Title" render="Label" halign="left" position="40,39" size="1070,103" font="Regular; 78" backgroundColor="background1" transparent="1" />
+    <widget source="global.CurrentTime" render="Label" position="1115,104" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="1110,60" size="130,45" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <ePixmap pixmap="Nowa/buttons/red.png" position="57,667" size="35,30" alphatest="on" />
+    <ePixmap pixmap="Nowa/buttons/green.png" position="264,667" size="35,30" alphatest="on" />
+    <widget source="key_red" render="Label" position="92,667" zPosition="1" size="164,30" font="Regular;24" halign="center" backgroundColor="background1" transparent="1" />
+    <widget source="key_green" render="Label" position="300,667" zPosition="1" size="164,30" font="Regular;24" halign="center" backgroundColor="background1" transparent="1" />
+    <widget name="config" enableWrapAround="1" position="49,160" size="649,491" zPosition="1" itemHeight="35" scrollbarMode="showOnDemand" transparent="1" />
+  </screen>
+  <screen name="LocationBox" position="251,163" size="739,459" title="Select Location">
+    <widget name="text" position="8,7" size="725,30" font="Regular;25" halign="left" backgroundColor="background1" transparent="1" />
+    <widget name="target" position="6,49" size="726,22" valign="center" font="Regular;22" transparent="1" foregroundColor="grey" />
+    <widget name="filelist" position="39,76" zPosition="1" size="694,254" scrollbarMode="showOnDemand" selectionDisabled="1" transparent="1" />
+    <widget name="textbook" position="8,344" size="724,28" font="Regular;22" transparent="1" foregroundColor="grey" />
+    <widget name="booklist" position="39,376" zPosition="2" size="695,35" itemHeight="35" scrollbarMode="showOnDemand" transparent="1" />
+    <ePixmap pixmap="Nowa/buttons/red.png" position="7,423" size="30,30" alphatest="on" />
+    <ePixmap pixmap="Nowa/buttons/green.png" position="176,423" size="30,30" alphatest="on" />
+    <ePixmap pixmap="Nowa/buttons/yellow.png" position="346,423" size="30,30" alphatest="on" />
+    <ePixmap pixmap="Nowa/buttons/blue.png" position="521,423" size="30,30" alphatest="on" transparent="1" />
+    <widget name="key_red" position="38,423" zPosition="1" size="150,30" font="Regular; 22" halign="center" backgroundColor="background1" transparent="1" />
+    <widget name="key_green" position="207,423" zPosition="1" size="150,30" font="Regular; 22" halign="center" backgroundColor="background1" transparent="1" />
+    <widget name="key_yellow" position="377,423" zPosition="1" size="150,30" font="Regular; 22" halign="center" backgroundColor="background1" transparent="1" />
+    <widget name="key_blue" position="546,423" zPosition="1" size="186,30" font="Regular; 24" halign="center" backgroundColor="background1" transparent="1" />
+  </screen>
+  <screen name="SkinSelector" position="0,0" size="1280,720" title="Choose your Skin" backgroundColor="transparent" flags="wfNoBorder">
+    <ePixmap position="0,0" size="1280,720" pixmap="Nowa/back/choixbox.png" backgroundColor="transparent" zPosition="-1" />
+    <widget source="Title" render="Label" halign="left" position="40,39" size="1070,103" font="Regular; 78" backgroundColor="background1" transparent="1" />
+    <widget source="global.CurrentTime" render="Label" position="1115,104" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="1110,60" size="130,45" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <ePixmap pixmap="Nowa/buttons/red.png" position="45,668" size="35,30" alphatest="on" />
+    <widget source="key_red" render="Label" position="79,668" zPosition="1" size="164,30" font="Regular;24" halign="center" backgroundColor="background1" transparent="1" />
+    <widget name="SkinList" position="46,160" size="455,491" itemHeight="35" scrollbarMode="showOnDemand" transparent="1" />
+    <widget name="Preview" position="738,260" size="280,250" alphatest="blend" backgroundColor="transpBlack" />
+    <widget source="introduction" render="Label" position="612,515" size="547,48" font="Regular; 25" halign="center" transparent="0" backgroundColor="transpBlack" />
+  </screen>
+  <screen name="MovieContextMenu" position="0,0" size="1280,720" title="Movielist menu" backgroundColor="transparent" flags="wfNoBorder">
+    <ePixmap position="0,0" size="1278,720" zPosition="-1" pixmap="Nowa/back/menulist.png" />
+    <widget source="Title" render="Label" halign="left" position="40,39" size="529,103" font="Regular; 78" backgroundColor="background1" transparent="1" />
+    <widget source="global.CurrentTime" render="Label" position="1115,104" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="1110,60" size="130,45" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget name="menu" position="49,160" size="649,491" itemHeight="35" scrollbarMode="showOnDemand" transparent="1" />
+  </screen>
+  <screen name="MovieSelection" position="0,-15" size="1280,720" title="InfoBar" flags="wfNoBorder" backgroundColor="transparent">
+    <ePixmap position="0,0" size="1280,720" pixmap="Nowa/back/movielist.png" backgroundColor="transparent" zPosition="-1" />
+    <widget source="global.CurrentTime" render="Label" position="54,113" size="121,29" font="Regular; 22" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="left">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="149,115" size="130,29" font="Regular; 22" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget name="list" position="55,175" size="616,466" zPosition="3" scrollbarMode="showOnDemand" transparent="1" />
+    <widget source="Service" render="Label" position="758,172" size="200,26" font="Regular;26" backgroundColor="background1" transparent="1" zPosition="1">
+      <convert type="ServiceTime">StartTime</convert>
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="Service" render="Label" position="758,202" zPosition="1" size="140,26" font="Regular;26" backgroundColor="background1" halign="left" transparent="1">
+      <convert type="ServiceTime">Duration</convert>
+      <convert type="ClockToText">InMinutes</convert>
+    </widget>
+    <eLabel text="Size:" position="688,232" size="150,26" font="Regular;26" backgroundColor="background1" transparent="1" foregroundColor="lightgrey" />
+    <widget source="Service" render="Label" position="758,232" zPosition="1" size="190,26" font="Regular;26" halign="left" backgroundColor="background1" transparent="1">
+      <convert type="MovieInfo">FileSize</convert>
+    </widget>
+    <widget name="freeDiskSpace" position="54,140" size="294,26" font="Regular; 24" foregroundColor="undcdcdc" backgroundColor="background1" transparent="1" />
+    <widget source="Service" render="Label" position="689,273" size="530,365" font="Regular; 24" backgroundColor="background1" transparent="1" foregroundColor="un808888">
+      <convert type="EventName">ExtendedDescription</convert>
+    </widget>
+    <eLabel backgroundColor="grey" position="678,175" size="2,466" zPosition="1" foregroundColor="background1" />
+    <eLabel text="Date:" position="688,172" size="150,26" font="Regular;26" backgroundColor="background1" transparent="1" foregroundColor="lightgrey" />
+    <eLabel text="Time:" position="688,202" size="150,26" font="Regular;26" backgroundColor="background1" transparent="1" foregroundColor="lightgrey" />
+    <ePixmap pixmap="Nowa/buttons/red.png" position="414,118" size="30,30" alphatest="on" />
+    <ePixmap pixmap="Nowa/buttons/green.png" position="599,118" size="30,30" alphatest="on" />
+    <ePixmap pixmap="Nowa/buttons/yellow.png" position="787,118" size="30,30" alphatest="on" />
+    <ePixmap pixmap="Nowa/buttons/blue.png" position="972,118" size="30,30" alphatest="on" transparent="1" />
+    <widget name="key_red" position="446,118" zPosition="1" size="150,30" font="Regular; 22" halign="center" backgroundColor="background1" transparent="1" />
+    <widget name="key_green" position="632,118" zPosition="1" size="150,30" font="Regular; 22" halign="center" backgroundColor="background1" transparent="1" />
+    <widget name="key_yellow" position="819,118" zPosition="1" size="150,30" font="Regular; 22" halign="center" backgroundColor="background1" transparent="1" />
+    <widget name="key_blue" position="1005,118" zPosition="1" size="164,30" font="Regular; 24" halign="center" backgroundColor="background1" transparent="1" />
+  </screen>
+  <screen name="About" position="275,178" size="749,414" title="About">
+    <widget source="global.CurrentTime" render="Label" position="619,36" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="614,-6" size="130,45" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget source="EnigmaVersion" render="Label" position="15,52" size="340,30" font="Regular;21" />
+    <widget source="ImageVersion" render="Label" position="15,82" size="340,30" font="Regular;21" />
+    <widget source="FPVersion" render="Label" position="15,113" size="340,30" font="Regular;21" />
+    <widget source="TunerHeader" render="Label" position="15,144" size="340,30" font="Regular;21" />
+    <widget source="Tuner0" render="Label" position="15,175" size="340,30" font="Regular;21" />
+    <widget source="Tuner1" render="Label" position="15,206" size="340,30" font="Regular;21" />
+    <widget source="Tuner2" render="Label" position="15,237" size="340,30" font="Regular;21" />
+    <widget source="Tuner3" render="Label" position="15,267" size="340,30" font="Regular;21" />
+    <widget source="HDDHeader" render="Label" position="15,298" size="340,30" font="Regular;21" />
+    <widget source="hddA" render="Label" position="15,328" size="340,80" font="Regular;21" />
+    <ePixmap position="431,129" zPosition="-9" size="250,230" pixmap="Nowa/prev.png" transparent="1" alphatest="blend" />
+  </screen>
+  <screen name="LanguageSelection" position="231,145" size="806,520" title="Language selection">
+    <ePixmap position="537,237" size="250,250" zPosition="2" pixmap="Nowa/menu/language.png" transparent="1" alphatest="blend" />
+    <widget source="global.CurrentTime" render="Label" position="604,41" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="600,-5" size="130,45" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget source="languages" render="Listbox" enableWrapAround="1" position="3,3" size="505,518" zPosition="1" scrollbarMode="showOnDemand" transparent="1">
+      <convert type="TemplatedMultiContent">
+				{"template": [
+						MultiContentEntryPixmap(pos = (20, 10), size = (60, 40), png = 2), # index 2 is the pixmap,
+						MultiContentEntryText(pos = (100, 17), size = (340, 30), flags = RT_HALIGN_LEFT, text = 1), # index 1 is the language name
+					],
+				 "fonts": [gFont("Regular", 26)],
+				 "itemHeight": 65
+				}
+			</convert>
+    </widget>
+  </screen>
+  <screen name="ParentalControlChangePin" position="300,211" size="696,395" title="Change pin code">
+    <widget source="global.CurrentTime" render="Label" position="496,72" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="491,25" size="130,45" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget name="config" position="4,12" size="412,377" scrollbarMode="showOnDemand" transparent="1" />
+    <ePixmap position="435,143" size="250,250" zPosition="2" pixmap="Nowa/menu/parental_setup.png" transparent="1" alphatest="blend" />
+  </screen>
+  <screen name="ParentalControlSetup" position="300,211" size="696,395" title="Change pin code">
+    <widget source="global.CurrentTime" render="Label" position="496,72" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="491,25" size="130,45" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget name="config" position="4,12" size="412,377" scrollbarMode="showOnDemand" transparent="1" />
+    <ePixmap position="435,143" size="250,250" zPosition="2" pixmap="Nowa/menu/parental_setup.png" transparent="1" alphatest="blend" />
+  </screen>
+  <screen name="ParentalControlEditor" position="300,211" size="696,395" title="Change pin code">
+    <widget source="global.CurrentTime" render="Label" position="496,72" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="491,25" size="130,45" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget name="servicelist" position="4,12" size="412,377" scrollbarMode="showOnDemand" transparent="1" />
+    <ePixmap position="435,143" size="250,250" zPosition="2" pixmap="Nowa/menu/parental_setup.png" transparent="1" alphatest="blend" />
+  </screen>
+  <screen name="ServiceInfo" position="217,185" size="813,406" title="Serviceinfo">
+    <widget source="global.CurrentTime" render="Label" position="609,36" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="604,-6" size="130,45" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget name="infolist" position="4,3" size="548,341" scrollbarMode="showNever" transparent="1" />
+    <ePixmap pixmap="Nowa/buttons/red.png" position="10,374" size="30,30" alphatest="on" />
+    <ePixmap pixmap="Nowa/buttons/green.png" position="195,374" size="30,30" alphatest="on" />
+    <ePixmap pixmap="Nowa/buttons/yellow.png" position="382,374" size="30,30" alphatest="on" />
+    <ePixmap pixmap="Nowa/buttons/blue.png" position="569,374" size="30,30" alphatest="on" transparent="1" />
+    <widget name="red" position="42,374" zPosition="1" size="150,30" font="Regular; 22" halign="center" backgroundColor="background1" transparent="1" />
+    <widget name="green" position="226,374" zPosition="1" size="150,30" font="Regular; 22" halign="center" backgroundColor="background1" transparent="1" />
+    <widget name="yellow" position="414,374" zPosition="1" size="150,30" font="Regular; 22" halign="center" backgroundColor="background1" transparent="1" />
+    <widget name="blue" position="600,374" zPosition="1" size="164,30" font="Regular; 24" halign="center" backgroundColor="background1" transparent="1" />
+    <ePixmap position="551,107" size="250,250" zPosition="2" pixmap="Nowa/menu/info.png" transparent="1" alphatest="blend" />
+  </screen>
+  <screen name="NimSelection" position="206,113" size="843,505" title="Choose Tuner">
+    <widget source="global.CurrentTime" render="Label" position="659,46" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="655,0" size="130,45" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget source="nimlist" render="Listbox" position="5,66" size="568,370" scrollbarMode="showOnDemand">
+      <convert type="TemplatedMultiContent">
+				{"template": [
+						MultiContentEntryText(pos = (10, 5), size = (580, 30), flags = RT_HALIGN_LEFT, text = 1), # index 1 is the nim name,
+						MultiContentEntryText(pos = (50, 35), size = (540, 80), font = 1, flags = RT_HALIGN_LEFT | RT_WRAP, text = 2), # index 2 is a description of the nim settings,
+					],
+				 "fonts": [gFont("Regular", 22), gFont("Regular", 18)],
+				 "itemHeight": 85
+				}
+			</convert>
+    </widget>
+    <ePixmap position="578,240" size="250,250" zPosition="2" pixmap="Nowa/menu/service_searching_selection.png" transparent="1" alphatest="blend" />
+  </screen>
+  <screen name="NimSetup" position="206,113" size="843,505" title="Reception Settings">
+    <widget source="global.CurrentTime" render="Label" position="659,46" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="655,0" size="130,45" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget name="config" position="5,66" size="568,370" scrollbarMode="showOnDemand" transparent="1" />
+    <ePixmap position="578,240" size="250,250" zPosition="2" pixmap="Nowa/menu/service_searching_selection.png" transparent="1" alphatest="blend" />
+  </screen>
+  <screen name="ScanSetup" position="206,113" size="843,505" title="Service scan">
+    <widget source="global.CurrentTime" render="Label" position="659,46" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="655,0" size="130,45" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget name="config" position="5,66" size="568,370" scrollbarMode="showOnDemand" transparent="1" />
+    <widget name="introduction" position="5,452" size="568,25" font="Regular;23" halign="left" backgroundColor="background1" transparent="1" />
+    <ePixmap position="578,240" size="250,250" zPosition="2" pixmap="Nowa/menu/service_searching_selection.png" transparent="1" alphatest="blend" />
+  </screen>
+  <screen name="ScanSimple" position="206,113" size="843,505" title="Service scan">
+    <widget source="global.CurrentTime" render="Label" position="659,46" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="655,0" size="130,45" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget name="header" position="5,466" size="568,22" font="Regular; 20" transparent="1" />
+    <widget name="config" position="5,66" size="568,370" scrollbarMode="showOnDemand" transparent="1" />
+    <widget name="footer" position="5,442" size="568,20" font="Regular; 20" halign="left" />
+    <ePixmap position="578,240" size="250,250" zPosition="2" pixmap="Nowa/menu/service_searching_selection.png" transparent="1" alphatest="blend" />
+  </screen>
+  <screen name="ServiceScan" position="206,113" size="843,505" title="Service Scan">
+    <widget source="global.CurrentTime" render="Label" position="659,46" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="655,0" size="130,45" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget source="FrontendInfo" render="Pixmap" pixmap="skin_default/icons/scan-s.png" position="765,175" size="64,64" transparent="1" alphatest="on">
+      <convert type="FrontendInfo">TYPE</convert>
+      <convert type="ValueRange">0,0</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="FrontendInfo" render="Pixmap" pixmap="skin_default/icons/scan-c.png" position="185,280" size="64,64" transparent="1" alphatest="on">
+      <convert type="FrontendInfo">TYPE</convert>
+      <convert type="ValueRange">1,1</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="FrontendInfo" render="Pixmap" pixmap="skin_default/icons/scan-t.png" position="185,280" size="64,64" transparent="1" alphatest="on">
+      <convert type="FrontendInfo">TYPE</convert>
+      <convert type="ValueRange">2,2</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget name="servicelist" position="4,18" size="560,319" selectionDisabled="1" transparent="1" />
+    <widget name="network" position="4,343" size="560,25" font="Regular;22" backgroundColor="background1" transparent="1" />
+    <widget name="transponder" position="4,376" size="560,25" font="Regular;22" backgroundColor="background1" transparent="1" />
+    <widget name="scan_state" position="4,408" size="560,25" zPosition="2" font="Regular;20" backgroundColor="background1" transparent="1" />
+    <widget name="pass" position="4,442" size="560,25" font="Regular;20" backgroundColor="background1" transparent="1" />
+    <ePixmap position="4,479" zPosition="1" size="558,14" pixmap="Nowa/back/progress_big_bg.png" alphatest="blend" />
+    <widget name="scan_progress" position="6,481" zPosition="2" size="554,10" pixmap="Nowa/back/progress_big.png" backgroundColor="transpBlack" />
+    <ePixmap position="578,240" size="250,250" zPosition="2" pixmap="Nowa/menu/service_searching_selection.png" transparent="1" alphatest="blend" />
+  </screen>
+  <screen name="TimerEntry" position="210,207" size="842,389" title="Timer entry">
+    <widget source="global.CurrentTime" render="Label" position="631,47" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="625,0" size="130,45" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget name="config" position="4,1" size="549,335" scrollbarMode="showOnDemand" transparent="1" />
+    <widget name="cancel" pixmap="Nowa/buttons/red.png" position="4,353" size="140,30" alphatest="on" />
+    <widget name="ok" pixmap="Nowa/buttons/green.png" position="177,353" size="140,30" alphatest="on" />
+    <widget name="canceltext" position="35,353" size="140,30" zPosition="1" font="Regular;22" valign="top" halign="center" transparent="1" />
+    <widget name="oktext" position="209,353" size="140,30" zPosition="1" font="Regular;22" valign="top" halign="center" transparent="1" />
+    <ePixmap position="567,102" size="250,250" zPosition="2" pixmap="Nowa/menu/timer.png" transparent="1" alphatest="blend" />
+  </screen>
+  <screen name="TimerEditList" position="210,207" size="842,389" title="Timer Editor">
+    <widget source="global.CurrentTime" render="Label" position="631,47" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="625,0" size="130,45" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget name="timerlist" position="4,1" size="549,335" scrollbarMode="showOnDemand" transparent="1" />
+    <ePixmap pixmap="Nowa/buttons/red.png" position="4,353" size="140,30" transparent="1" alphatest="on" />
+    <ePixmap pixmap="Nowa/buttons/green.png" position="177,353" size="140,30" transparent="1" alphatest="on" />
+    <ePixmap pixmap="Nowa/buttons/yellow.png" position="353,353" size="140,30" alphatest="on" />
+    <ePixmap pixmap="Nowa/buttons/blue.png" position="527,353" size="140,30" alphatest="on" />
+    <widget name="key_red" position="35,353" size="140,30" zPosition="11" font="Regular;22" valign="top" halign="center" transparent="1" />
+    <widget name="key_green" position="209,353" size="140,30" zPosition="11" font="Regular;22" valign="top" halign="center" transparent="1" />
+    <widget name="key_yellow" position="385,353" size="140,30" zPosition="11" font="Regular;22" valign="top" halign="center" transparent="1" />
+    <widget name="key_blue" position="559,353" size="140,30" zPosition="11" font="Regular;22" valign="top" halign="center" transparent="1" />
+    <ePixmap position="567,102" size="250,250" zPosition="2" pixmap="Nowa/menu/timer.png" transparent="1" alphatest="blend" />
+  </screen>
+  <screen name="SleepTimerEdit" position="320,227" size="623,322" title="Sleep Timer">
+    <widget name="pretext" position="14,23" size="320,25" font="Regular;22" transparent="1" />
+    <widget name="input" position="352,23" size="51,25" font="Regular;22" transparent="1" />
+    <widget name="aftertext" position="416,23" size="100,25" font="Regular;22" transparent="1" />
+    <widget name="current_status" position="14,55" size="400,30" valign="center" font="Regular;22" transparent="1" />
+    <widget name="red" pixmap="Nowa/buttons/red.png" position="14,137" size="140,30" transparent="1" alphatest="on" />
+    <widget name="green" pixmap="Nowa/buttons/green.png" position="14,181" size="140,30" transparent="1" alphatest="on" />
+    <widget name="yellow" pixmap="Nowa/buttons/yellow.png" position="14,224" size="140,30" alphatest="on" />
+    <widget name="blue" pixmap="Nowa/buttons/blue.png" position="14,269" size="140,30" alphatest="on" />
+    <widget name="red_text" position="46,137" size="140,30" zPosition="11" font="Regular;22" valign="top" halign="center" transparent="1" />
+    <widget name="green_text" position="46,181" size="140,30" zPosition="11" font="Regular;22" valign="top" halign="center" transparent="1" />
+    <widget name="yellow_text" position="46,224" size="140,30" zPosition="11" font="Regular;22" valign="top" halign="center" transparent="1" />
+    <widget name="blue_text" position="46,269" size="140,30" zPosition="11" font="Regular;22" valign="top" halign="center" transparent="1" />
+  </screen>
+  <screen name="MediaPlayer" position="0,0" size="1280,720" title="MediaPlayer" flags="wfNoBorder">
+    <ePixmap position="0,0" zPosition="-10" size="1280,720" pixmap="Nowa/back/mediaplayerback.png" transparent="1" />
+    <widget source="global.CurrentTime" render="Label" position="150,23" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="left">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="1004,30" size="130,28" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="right" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <eLabel text="F i l e l i s t" position="323,65" size="115,30" zPosition="5" halign="center" font="Regular;22" backgroundColor="background1" transparent="1" />
+    <widget name="coverArt" position="477,447" size="152,152" pixmap="Default-HD/no_coverArt.png" alphatest="blend" />
+    <widget name="filelist" position="152,119" size="477,295" zPosition="3" scrollbarMode="showOnDemand" transparent="1" />
+    <widget name="artisttext" position="639,455" size="100,25" font="Regular;20" valign="top" foregroundColor="white" backgroundColor="background1" transparent="1" />
+    <widget name="artist" position="746,455" size="379,25" font="Regular;20" valign="top" backgroundColor="background1" transparent="1" />
+    <widget name="albumtext" position="639,485" size="110,25" font="Regular;20" valign="top" foregroundColor="white" backgroundColor="background1" transparent="1" />
+    <widget name="album" position="746,485" size="379,25" font="Regular;20" valign="top" backgroundColor="background1" transparent="1" />
+    <widget name="yeartext" position="639,515" size="110,25" font="Regular;20" valign="top" foregroundColor="white" backgroundColor="background1" transparent="1" />
+    <widget name="year" position="746,515" size="379,25" font="Regular;20" valign="top" backgroundColor="background1" transparent="1" />
+    <widget name="genretext" position="638,547" size="110,25" font="Regular;20" valign="top" foregroundColor="white" backgroundColor="background1" transparent="1" />
+    <widget name="genre" position="746,546" size="379,25" font="Regular;20" backgroundColor="background1" transparent="1" />
+    <eLabel name="nowPlaying" position="637,577" size="151,33" font="Regular; 26" valign="center" text="Now Playing" foregroundColor="white" backgroundColor="background1" transparent="1" />
+    <widget name="title" position="792,577" size="336,33" font="Regular; 26" valign="center" backgroundColor="background1" transparent="1" halign="center" />
+    <eLabel text="P l a y l i s t" position="822,67" size="120,30" zPosition="5" halign="center" font="Regular;22" backgroundColor="background1" transparent="1" />
+    <widget name="playlist" position="655,119" size="477,295" zPosition="3" scrollbarMode="showOnDemand" transparent="1" />
+    <widget name="PositionGauge" position="652,622" size="468,15" pointer="Nowa/back/position_pointer.png:468,0" seek_pointer="Nowa/back/position_pointer.png:468,0" transparent="1" />
+  </screen>
+  <screen name="Console" position="center,100" size="888,580" title="Command execution...">
+    <widget source="global.CurrentTime" render="Label" position="666,49" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="662,3" size="130,45" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <ePixmap pixmap="Nowa/menu/console.png" zPosition="2" position="596,321" size="250,250" alphatest="blend" />
+    <widget name="text" position="8,8" size="538,563" font="Console; 18" foregroundColor="white" backgroundColor="background1" transparent="1" />
+  </screen>
+  <screen name="MerlinDownloadBrowser" position="center,100" size="888,580" title="Addon Manager">
+    <widget source="global.CurrentTime" render="Label" position="666,44" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="662,3" size="130,40" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <ePixmap pixmap="Nowa/menu/merlin.png" zPosition="2" position="596,321" size="250,250" alphatest="blend" />
+    <widget name="list" position="8,8" size="538,563" scrollbarMode="showOnDemand" transparent="1" />
+    <widget name="text" position="568,93" size="307,228" font="Regular;25" halign="center" foregroundColor="grey" backgroundColor="background1" transparent="1" />
+  </screen>
+  <screen name="BackupSelection" position="235,137" size="821,480" title="Select files/folders to backup">
+    <widget source="global.CurrentTime" render="Label" position="616,56" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="611,14" size="130,40" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <ePixmap pixmap="Nowa/menu/settings.png" zPosition="2" position="549,233" size="250,250" alphatest="blend" />
+    <widget name="checkList" position="4,6" size="523,426" zPosition="3" scrollbarMode="showOnDemand" transparent="1" />
+    <ePixmap name="key_red_pixmap" position="4,448" size="140,30" pixmap="Nowa/buttons/red.png" transparent="1" alphatest="on" />
+    <ePixmap name="key_green_pixmap" position="180,448" size="140,30" pixmap="Nowa/buttons/green.png" alphatest="on" />
+    <ePixmap name="key_yellow_pixmap" position="357,448" size="140,30" pixmap="Nowa/buttons/yellow.png" alphatest="on" />
+    <widget source="key_red" render="Label" position="35,448" size="140,30" zPosition="11" font="Regular;22" valign="top" halign="center" transparent="1" />
+    <widget source="key_green" render="Label" position="211,448" size="140,30" zPosition="11" font="Regular;22" valign="top" halign="center" transparent="1" />
+    <widget source="key_yellow" render="Label" position="387,448" size="140,30" zPosition="11" font="Regular;22" valign="top" halign="center" transparent="1" />
+  </screen>
+  <screen name="IpkgInstaller" position="235,137" size="821,480" title="Ipkg Installer...">
+    <widget source="global.CurrentTime" render="Label" position="616,56" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="611,14" size="130,40" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <ePixmap pixmap="Nowa/menu/settings.png" zPosition="2" position="549,233" size="250,250" alphatest="blend" />
+    <widget name="list" position="4,6" size="523,426" zPosition="3" scrollbarMode="showOnDemand" transparent="1" />
+    <widget source="introduction" render="Label" position="540,91" size="270,146" font="Regular; 17" halign="center" backgroundColor="background1" transparent="1" foregroundColor="un808888" />
+    <ePixmap name="key_red_pixmap" position="4,448" size="140,30" pixmap="Nowa/buttons/red.png" transparent="1" alphatest="on" />
+    <ePixmap name="key_green_pixmap" position="180,448" size="140,30" pixmap="Nowa/buttons/green.png" alphatest="on" />
+    <widget source="key_red" render="Label" position="35,448" size="140,30" zPosition="11" font="Regular;20" valign="top" halign="center" transparent="1" />
+    <widget source="key_green" render="Label" position="211,448" size="140,30" zPosition="11" font="Regular;20" valign="top" halign="center" transparent="1" />
+  </screen>
+  <screen name="IPKGMenu" position="235,137" size="821,480" title="Select IPKG source...">
+    <widget source="global.CurrentTime" render="Label" position="616,56" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="611,14" size="130,40" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <ePixmap pixmap="Nowa/menu/settings.png" zPosition="2" position="549,233" size="250,250" alphatest="blend" />
+    <widget name="filelist" position="4,6" size="523,426" zPosition="3" scrollbarMode="showOnDemand" transparent="1" />
+    <ePixmap name="key_red_pixmap" position="4,448" size="140,30" pixmap="Nowa/buttons/red.png" transparent="1" alphatest="on" />
+    <ePixmap name="key_green_pixmap" position="180,448" size="140,30" pixmap="Nowa/buttons/green.png" alphatest="on" />
+    <widget source="key_red" render="Label" position="35,448" size="140,30" zPosition="11" font="Regular;20" valign="top" halign="center" transparent="1" />
+    <widget source="key_green" render="Label" position="211,448" size="140,30" zPosition="11" font="Regular;20" valign="top" halign="center" transparent="1" />
+  </screen>
+  <screen name="PacketManager" position="235,137" size="821,480" title="IPKG upgrade...">
+    <widget source="global.CurrentTime" render="Label" position="616,56" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="611,14" size="130,40" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget source="list" render="Listbox" position="4,6" size="523,426" zPosition="3" scrollbarMode="showOnDemand" transparent="1">
+      <convert type="TemplatedMultiContent">
+				{"template": [
+						MultiContentEntryText(pos = (10, 5), size = (670, 28), font=0, flags = RT_HALIGN_LEFT, text = 0), # index 0 is the name
+						MultiContentEntryText(pos = (10, 35), size = (670, 20), font=1, flags = RT_HALIGN_LEFT, text = 2), # index 2 is the description
+						MultiContentEntryPixmapAlphaTest(pos = (650, 5), size = (48, 48), png = 4), # index 4 is the status pixmap
+						MultiContentEntryPixmapAlphaTest(pos = (5, 58), size = (0, 0), png = 5), # index 4 is the div pixmap
+					],
+				"fonts": [gFont("Regular", 22),gFont("Regular", 17)],
+				"itemHeight": 60
+				}
+			</convert>
+    </widget>
+    <ePixmap pixmap="Nowa/menu/settings.png" zPosition="2" position="549,233" size="250,250" alphatest="blend" />
+    <ePixmap name="key_red_pixmap" position="4,448" size="140,30" pixmap="Nowa/buttons/red.png" transparent="1" alphatest="on" />
+    <ePixmap name="key_green_pixmap" position="180,448" size="140,30" pixmap="Nowa/buttons/green.png" alphatest="on" />
+    <widget source="key_red" render="Label" position="35,448" size="140,30" zPosition="11" font="Regular;20" valign="top" halign="center" transparent="1" />
+    <widget source="key_green" render="Label" position="211,448" size="140,30" zPosition="11" font="Regular;20" valign="top" halign="center" transparent="1" />
+  </screen>
+  <screen name="RestoreMenu" position="235,137" size="821,480" title="Restore Backups">
+    <widget source="global.CurrentTime" render="Label" position="616,56" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="611,14" size="130,40" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget name="filelist" position="4,6" size="523,426" zPosition="3" scrollbarMode="showOnDemand" transparent="1" />
+    <ePixmap pixmap="Nowa/menu/settings.png" zPosition="2" position="549,233" size="250,250" alphatest="blend" />
+    <ePixmap name="key_red_pixmap" position="4,448" size="140,30" pixmap="Nowa/buttons/red.png" transparent="1" alphatest="on" />
+    <ePixmap name="key_green_pixmap" position="180,448" size="140,30" pixmap="Nowa/buttons/green.png" alphatest="on" />
+    <ePixmap name="key_yellow_pixmap" position="357,448" size="140,30" pixmap="Nowa/buttons/yellow.png" alphatest="on" />
+    <widget source="key_red" render="Label" position="35,448" size="140,30" zPosition="11" font="Regular;22" valign="top" halign="center" transparent="1" />
+    <widget source="key_green" render="Label" position="211,448" size="140,30" zPosition="11" font="Regular;22" valign="top" halign="center" transparent="1" />
+    <widget source="key_yellow" render="Label" position="387,448" size="140,30" zPosition="11" font="Regular;22" valign="top" halign="center" transparent="1" />
+  </screen>
+  <screen name="UpdatePluginMenu" position="235,137" size="821,480" title="Softwaremanager...">
+    <widget source="global.CurrentTime" render="Label" position="616,56" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="611,14" size="130,40" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <ePixmap pixmap="Nowa/menu/settings.png" zPosition="2" position="549,233" size="250,250" alphatest="blend" />
+    <widget source="menu" render="Listbox" position="4,6" size="523,426" scrollbarMode="showOnDemand" transparent="1">
+      <convert type="TemplatedMultiContent">
+					{"template": [
+							MultiContentEntryText(pos = (25, 7), size = (323, 30), flags = RT_HALIGN_LEFT, text = 1), # index 0 is the MenuText,
+						],
+					"fonts": [gFont("Regular", 22)],
+					"itemHeight": 40
+					}
+				</convert>
+    </widget>
+    <widget source="menu" render="Listbox" position="542,88" size="272,147" scrollbarMode="showNever" selectionDisabled="1" transparent="1">
+      <convert type="TemplatedMultiContent">
+					{"template": [
+							MultiContentEntryText(pos = (2, 2), size = (272, 147), flags = RT_HALIGN_CENTER|RT_VALIGN_CENTER|RT_WRAP, text = 2), # index 2 is the Description,
+						],
+					"fonts": [gFont("Regular", 20)],
+					"itemHeight": 147
+					}
+				</convert>
+    </widget>
+  </screen>
+  <screen name="DreamCC" position="283,165" size="689,440" title="DreamCC">
+    <widget source="global.CurrentTime" render="Label" position="496,56" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="491,14" size="130,40" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <ePixmap pixmap="Nowa/menu/cam.png" zPosition="2" position="431,185" size="250,250" alphatest="blend" />
+    <widget itemHeight="35" enableWrapAround="1" name="menu" zPosition="1" position="4,19" scrollbarMode="showOnDemand" size="442,344" transparent="1" />
+    <ePixmap pixmap="Nowa/buttons/red.png" zPosition="2" position="21,401" size="30,30" alphatest="blend" transparent="0" />
+    <ePixmap pixmap="Nowa/buttons/green.png" zPosition="2" position="174,401" size="30,30" alphatest="blend" transparent="0" />
+    <eLabel text="Stop" position="54,400" size="115,30" zPosition="5" halign="center" font="Regular; 24" backgroundColor="background1" transparent="1" />
+    <eLabel text="Start" position="206,401" size="115,30" zPosition="5" halign="center" font="Regular; 24" backgroundColor="background1" transparent="1" />
+  </screen>
+  <screen name="ExtendedNumberZap" position="206,56" size="819,152" title="Extended Number Zap" flags="wfNoBorder" backgroundColor="transparent">
+    <ePixmap position="0, 0" size="819,152" transparent="1" alphatest="on" pixmap="Nowa/back/extrazap.png" zPosition="-1" />
+    <widget alphatest="blend" position="112,10" render="Picon" size="220,132" source="Service" transparent="1" zPosition="5">
+      <convert type="RefToString" />
+    </widget>
+    <widget font="Regular; 50" halign="center" name="number" position="6,40" size="100,73" transparent="1" backgroundColor="background1" />
+    <widget name="channelname" position="342,28" size="466,34" halign="center" font="Regular; 32" transparent="1" valign="center" foregroundColor="lightgrey" backgroundColor="background1" />
+    <widget name="currentevent" position="342,80" size="467,44" halign="left" font="Regular; 34" transparent="1" backgroundColor="background1" foregroundColor="un808888" />
+    <widget backgroundColor="grey" borderColor="grey" borderWidth="3" position="343,65" render="Progress" size="464,12" source="Service" zPosition="2">
+      <convert type="EventTime">Progress</convert>
+    </widget>
+  </screen>
+  <screen name="DialogUpdateDelete" position="240,178" size="800,10" zPosition="1" title="AddOnManager" backgroundColor="background1">
+    <widget name="text" position="110,12" size="680,30" font="Regular; 25" />
+    <widget name="QuestionPixmap" pixmap="Nowa/icons/input_question.png" position="30,10" size="50,50" backgroundColor="background1" alphatest="blend" />
+    <widget name="list" position="20,75" size="760,320" itemHeight="30" transparent="1" />
+    <applet type="onLayoutFinish"> 
+# this should be factored out into some helper code, but currently demonstrates applets.
+from enigma import eSize, ePoint
+
+orgwidth = self.instance.size().width()
+orgpos = self.instance.position()
+textsize = self["text"].getSize()
+
+# y size still must be fixed in font stuff...
+textsize = (textsize[0] + 50, textsize[1] + 50)
+offset = 0
+offset = 60
+wsizex = textsize[0] + 60
+wsizey = textsize[1] + offset
+if (280 &gt; wsizex):
+	wsizex = 280
+wsize = (wsizex, wsizey)
+
+
+# resize
+self.instance.resize(eSize(*wsize))
+
+# resize label
+self["text"].instance.resize(eSize(*textsize))
+
+# move list
+listsize = (wsizex, 50)
+self["list"].instance.move(ePoint(0, textsize[1]))
+self["list"].instance.resize(eSize(*listsize))
+
+# center window
+newwidth = wsize[0]
+self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
+	</applet>
+  </screen>
+  <screen name="AutomaticTimerlistCleanUpSetup" position="300,211" size="696,395" title="Automatic Timerlist CleanUp Setup">
+    <widget source="global.CurrentTime" render="Label" position="496,72" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="491,30" size="130,40" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <ePixmap position="435,143" size="250,250" zPosition="2" pixmap="Nowa/menu/merlin.png" transparent="1" alphatest="blend" />
+    <ePixmap pixmap="Nowa/menu/merlin.png" zPosition="2" position="1470,580" size="256,256" alphatest="blend" />
+    <widget name="config" position="4,12" size="439,326" itemHeight="30" scrollbarMode="showOnDemand" transparent="1" />
+    <ePixmap pixmap="Nowa/buttons/red.png" position="4,361" size="30,30" alphatest="blend" />
+    <ePixmap pixmap="Nowa/buttons/green.png" position="175,361" size="30,30" alphatest="blend" />
+    <widget source="key_red" render="Label" position="38,361" size="130,30" zPosition="1" font="Regular; 24" halign="left" foregroundColor="white" backgroundColor="background1" transparent="1" />
+    <widget source="key_green" render="Label" position="208,361" size="130,30" zPosition="1" font="Regular; 24" halign="left" foregroundColor="white" backgroundColor="background1" transparent="1" />
+  </screen>
+  <screen name="InfoBarExtensionsConfigScreen" position="300,211" size="696,395" title="InfoBar Extensions Config Screen">
+    <widget source="global.CurrentTime" render="Label" position="496,72" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="491,30" size="130,40" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <ePixmap position="435,143" size="250,250" zPosition="2" pixmap="Nowa/menu/merlin.png" transparent="1" alphatest="blend" />
+    <ePixmap pixmap="Nowa/menu/merlin.png" zPosition="2" position="1470,580" size="256,256" alphatest="blend" />
+    <widget name="config" position="4,12" size="439,326" itemHeight="30" scrollbarMode="showOnDemand" transparent="1" />
+    <ePixmap pixmap="Nowa/buttons/red.png" position="4,361" size="30,30" alphatest="blend" />
+    <ePixmap pixmap="Nowa/buttons/green.png" position="175,361" size="30,30" alphatest="blend" />
+    <widget source="key_red" render="Label" position="38,361" size="130,30" zPosition="1" font="Regular; 24" halign="left" foregroundColor="white" backgroundColor="background1" transparent="1" />
+    <widget source="key_green" render="Label" position="208,361" size="130,30" zPosition="1" font="Regular; 24" halign="left" foregroundColor="white" backgroundColor="background1" transparent="1" />
+  </screen>
+  <screen name="SetEPGPath" position="300,211" size="696,395" title="Set EPG Path">
+    <widget source="global.CurrentTime" render="Label" position="496,72" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="491,30" size="130,40" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <ePixmap position="435,143" size="250,250" zPosition="2" pixmap="Nowa/menu/merlin.png" transparent="1" alphatest="blend" />
+    <ePixmap pixmap="Nowa/menu/merlin.png" zPosition="2" position="1470,580" size="256,256" alphatest="blend" />
+    <widget name="config" position="4,12" size="439,326" scrollbarMode="showOnDemand" itemHeight="30" transparent="1" />
+    <ePixmap pixmap="Nowa/buttons/red.png" position="4,361" size="30,30" alphatest="blend" />
+    <ePixmap pixmap="Nowa/buttons/green.png" position="175,361" size="30,30" alphatest="blend" />
+    <widget source="key_red" render="Label" position="38,361" size="130,30" zPosition="1" font="Regular; 24" halign="left" foregroundColor="white" backgroundColor="background1" transparent="1" />
+    <widget source="key_green" render="Label" position="208,361" size="130,30" zPosition="1" font="Regular; 24" halign="left" foregroundColor="white" backgroundColor="background1" transparent="1" />
+  </screen>
+  <screen name="epgPath" position="300,211" size="696,395" title="Epg Path">
+    <widget source="global.CurrentTime" render="Label" position="496,72" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="491,30" size="130,40" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <ePixmap position="435,143" size="250,250" zPosition="2" pixmap="Nowa/menu/merlin.png" transparent="1" alphatest="blend" />
+    <widget name="target" position="4,0" size="439,35" font="Regular;26" foregroundColor="white" backgroundColor="background1" transparent="1" />
+    <widget name="filelist" position="4,42" size="439,300" itemHeight="30" transparent="1" />
+    <ePixmap pixmap="Nowa/buttons/red.png" position="4,361" size="30,30" alphatest="blend" />
+    <ePixmap pixmap="Nowa/buttons/green.png" position="175,361" size="30,30" alphatest="blend" />
+    <widget source="key_red" render="Label" position="38,361" size="130,30" zPosition="1" font="Regular; 24" halign="left" foregroundColor="white" backgroundColor="background1" transparent="1" />
+    <widget source="key_green" render="Label" position="208,361" size="130,30" zPosition="1" font="Regular; 24" halign="left" foregroundColor="white" backgroundColor="background1" transparent="1" />
+  </screen>
+  <screen name="MerlinUpdateNotifier" position="300,211" size="696,395" title="Merlin Update Notifier">
+    <widget source="global.CurrentTime" render="Label" position="496,72" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="491,30" size="130,40" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <ePixmap position="435,143" size="250,250" zPosition="2" pixmap="Nowa/menu/merlin.png" transparent="1" alphatest="blend" />
+    <widget name="config" position="4,12" size="439,215" itemHeight="30" scrollbarMode="showOnDemand" transparent="1" />
+    <widget source="lastCheck" render="Label" position="4,275" size="200,26" font="Regular;26" foregroundColor="white" backgroundColor="background1" transparent="1" />
+    <widget source="lastCheckTime" render="Label" position="207,275" size="236,26" font="Regular;26" foregroundColor="white" backgroundColor="background1" transparent="1" />
+    <widget source="nextCheck" render="Label" position="4,305" size="200,26" font="Regular;26" foregroundColor="white" backgroundColor="background1" transparent="1" />
+    <widget source="nextCheckTime" render="Label" position="207,305" size="236,26" font="Regular;26" foregroundColor="white" backgroundColor="background1" transparent="1" />
+    <ePixmap pixmap="Nowa/buttons/red.png" position="4,361" size="30,30" alphatest="blend" />
+    <ePixmap pixmap="Nowa/buttons/green.png" position="175,361" size="30,30" alphatest="blend" />
+    <ePixmap pixmap="Nowa/buttons/yellow.png" position="345,361" size="30,30" alphatest="blend" />
+    <widget source="key_red" render="Label" position="38,361" size="130,30" zPosition="1" font="Regular; 24" halign="left" foregroundColor="white" backgroundColor="background1" transparent="1" />
+    <widget source="key_green" render="Label" position="208,361" size="130,30" zPosition="1" font="Regular; 24" halign="left" foregroundColor="white" backgroundColor="background1" transparent="1" />
+    <widget source="key_yellow" render="Label" position="378,361" size="130,30" zPosition="1" font="Regular; 24" halign="left" foregroundColor="white" backgroundColor="background1" transparent="1" />
+  </screen>
+  <screen name="PiconLoader" position="center,150" size="900,500" title="Picon Loader">
+    <widget source="global.CurrentTime" render="Label" position="706,72" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="701,30" size="130,40" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <ePixmap position="645,237" size="250,250" zPosition="2" pixmap="Nowa/menu/merlin.png" transparent="1" alphatest="blend" />
+    <widget source="heading" render="Label" position="5,0" size="653,26" font="Regular;26" foregroundColor="white" backgroundColor="background1" transparent="1" />
+    <widget source="list" render="Listbox" position="4,58" size="653,360" scrollbarMode="showOnDemand" transparent="1">
+      <convert type="TemplatedMultiContent">
+					{"template": [
+					   MultiContentEntryPixmapAlphaTest(pos = (5,5),size = (100,60),png = 0),
+					   MultiContentEntryText(pos = (5,70),size = (100,20),font=1,flags = RT_HALIGN_CENTER|RT_VALIGN_CENTER,text = 9),
+					   MultiContentEntryText(pos = (110,0),size = (620,22),font=0,flags = RT_HALIGN_LEFT|RT_VALIGN_TOP,text = 2),
+					   MultiContentEntryText(pos = (110,25),size = (65,20),font=1,flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER,text = (_("Tuner:"))),
+					   MultiContentEntryText(pos = (180,25),size = (75,20),font=1,flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER,text = 1),
+					   MultiContentEntryText(pos = (270,25),size = (100,20),font=1,flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER,text = (_("Provider:"))),
+					   MultiContentEntryText(pos = (360,25),size = (360,20),font=1,flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER,text = 7),
+					   MultiContentEntryText(pos = (110,45),size = (65,20),font=1,flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER,text = (_("Size:"))),
+					   MultiContentEntryText(pos = (180,45),size = (75,20),font=1,flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER,text = 5),
+					   MultiContentEntryText(pos = (270,45),size = (100,20),font=1,flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER,text = (_("Author:"))),
+					   MultiContentEntryText(pos = (360,45),size = (360,20),font=1,flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER,text = 4),
+					   MultiContentEntryText(pos = (110,65),size = (65,20),font=1,flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER,text = (_("Date:"))),
+					   MultiContentEntryText(pos = (180,65),size = (530,20),font=1,flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER,text = 6),
+					   MultiContentEntryText(pos = (270,65),size = (65,20),font=1,flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER,text = (_("Path:"))),
+					   MultiContentEntryText(pos = (360,65),size = (360,20),font=1,flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER,text = 8),
+						],
+					"fonts": [gFont("Regular",20),gFont("Regular",18)],
+					"itemHeight": 90
+					}
+		</convert>
+    </widget>
+    <ePixmap pixmap="Nowa/buttons/red.png" position="4,471" size="30,30" alphatest="blend" />
+    <ePixmap pixmap="Nowa/buttons/green.png" position="175,471" size="30,30" alphatest="blend" />
+    <ePixmap pixmap="Nowa/buttons/yellow.png" position="345,471" size="30,30" alphatest="blend" />
+    <ePixmap pixmap="Nowa/buttons/blue.png" position="515,471" size="30,30" alphatest="blend" />
+    <widget source="key_red" render="Label" position="38,471" size="130,30" zPosition="1" font="Regular; 24" halign="left" foregroundColor="white" backgroundColor="background1" transparent="1" />
+    <widget source="key_green" render="Label" position="208,471" size="130,30" zPosition="1" font="Regular; 24" halign="left" foregroundColor="white" backgroundColor="background1" transparent="1" />
+    <widget source="key_yellow" render="Label" position="378,471" size="130,30" zPosition="1" font="Regular; 24" halign="left" foregroundColor="white" backgroundColor="background1" transparent="1" />
+    <widget source="key_blue" render="Label" position="548,471" size="130,30" zPosition="1" font="Regular; 24" halign="left" foregroundColor="white" backgroundColor="background1" transparent="1" />
+  </screen>
+  <screen name="PiconSetSelection" position="center,150" size="900,500" title="Picon Set Selection">
+    <widget source="global.CurrentTime" render="Label" position="706,72" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="701,30" size="130,40" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <ePixmap position="645,237" size="250,250" zPosition="2" pixmap="Nowa/menu/merlin.png" transparent="1" alphatest="blend" />
+    <widget source="heading" render="Label" position="5,0" size="653,26" font="Regular;26" foregroundColor="white" backgroundColor="background1" transparent="1" />
+    <widget source="list" render="Listbox" position="4,58" size="653,360" scrollbarMode="showOnDemand" transparent="1">
+      <convert type="TemplatedMultiContent">
+					{"template": [
+					   MultiContentEntryPixmapAlphaTest(pos = (5,5),size = (100,60),png = 0),
+					   MultiContentEntryText(pos = (5,70),size = (100,20),font=1,flags = RT_HALIGN_CENTER|RT_VALIGN_CENTER,text = 9),
+					   MultiContentEntryText(pos = (110,0),size = (620,22),font=0,flags = RT_HALIGN_LEFT|RT_VALIGN_TOP,text = 2),
+					   MultiContentEntryText(pos = (110,25),size = (65,20),font=1,flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER,text = (_("Tuner:"))),
+					   MultiContentEntryText(pos = (180,25),size = (75,20),font=1,flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER,text = 1),
+					   MultiContentEntryText(pos = (270,25),size = (100,20),font=1,flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER,text = (_("Provider:"))),
+					   MultiContentEntryText(pos = (360,25),size = (360,20),font=1,flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER,text = 7),
+					   MultiContentEntryText(pos = (110,45),size = (65,20),font=1,flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER,text = (_("Size:"))),
+					   MultiContentEntryText(pos = (180,45),size = (75,20),font=1,flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER,text = 5),
+					   MultiContentEntryText(pos = (270,45),size = (100,20),font=1,flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER,text = (_("Author:"))),
+					   MultiContentEntryText(pos = (360,45),size = (360,20),font=1,flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER,text = 4),
+					   MultiContentEntryText(pos = (110,65),size = (65,20),font=1,flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER,text = (_("Date:"))),
+					   MultiContentEntryText(pos = (180,65),size = (530,20),font=1,flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER,text = 6),
+					   MultiContentEntryText(pos = (270,65),size = (65,20),font=1,flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER,text = (_("Path:"))),
+					   MultiContentEntryText(pos = (360,65),size = (360,20),font=1,flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER,text = 8),
+						],
+					"fonts": [gFont("Regular",20),gFont("Regular",18)],
+					"itemHeight": 90
+					}
+		</convert>
+    </widget>
+    <ePixmap pixmap="Nowa/buttons/red.png" position="4,471" size="30,30" alphatest="blend" />
+    <ePixmap pixmap="Nowa/buttons/green.png" position="175,471" size="30,30" alphatest="blend" />
+    <ePixmap pixmap="Nowa/buttons/blue.png" position="515,471" size="30,30" alphatest="blend" />
+    <widget source="key_red" render="Label" position="38,471" size="130,30" zPosition="1" font="Regular; 24" halign="left" foregroundColor="white" backgroundColor="background1" transparent="1" />
+    <widget source="key_green" render="Label" position="208,471" size="130,30" zPosition="1" font="Regular; 24" halign="left" foregroundColor="white" backgroundColor="background1" transparent="1" />
+    <widget source="key_blue" render="Label" position="548,471" size="130,30" zPosition="1" font="Regular; 24" halign="left" foregroundColor="white" backgroundColor="background1" transparent="1" />
+  </screen>
+  <screen name="PathSelection" position="center,150" size="900,500" title="Path Selection">
+    <widget source="global.CurrentTime" render="Label" position="706,72" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="701,30" size="130,40" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <ePixmap position="645,237" size="250,250" zPosition="2" pixmap="Nowa/menu/merlin.png" transparent="1" alphatest="blend" />
+    <widget source="heading" render="Label" position="5,0" size="653,26" font="Regular;26" foregroundColor="white" backgroundColor="background1" transparent="1" />
+    <widget source="list" render="Listbox" position="4,58" size="653,360" scrollbarMode="showOnDemand" transparent="1">
+      <convert type="TemplatedMultiContent">
+					{"template": [
+					   MultiContentEntryText(pos = (0,0),size = (360,22),font=0,flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER,text = 0),
+					   MultiContentEntryText(pos = (365,0),size = (390,22),font=0,flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER,text = 1),
+						],
+					"fonts": [gFont("Regular",20)],
+					"itemHeight": 25
+					}
+        </convert>
+    </widget>
+    <ePixmap pixmap="Nowa/buttons/red.png" position="4,471" size="30,30" alphatest="blend" />
+    <ePixmap pixmap="Nowa/buttons/green.png" position="175,471" size="30,30" alphatest="blend" />
+    <widget source="key_red" render="Label" position="38,471" size="130,30" zPosition="1" font="Regular; 24" halign="left" foregroundColor="white" backgroundColor="background1" transparent="1" />
+    <widget source="key_green" render="Label" position="208,471" size="130,30" zPosition="1" font="Regular; 24" halign="left" foregroundColor="white" backgroundColor="background1" transparent="1" />
+  </screen>
+  <screen name="PiconSetFilter" position="300,211" size="696,395" title="Picon Set Filter">
+    <widget source="global.CurrentTime" render="Label" position="496,72" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="491,30" size="130,40" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <ePixmap position="435,143" size="250,250" zPosition="2" pixmap="Nowa/menu/merlin.png" transparent="1" alphatest="blend" />
+    <ePixmap pixmap="Nowa/menu/merlin.png" zPosition="2" position="1470,580" size="256,256" alphatest="blend" />
+    <widget name="config" position="4,12" size="439,326" itemHeight="30" scrollbarMode="showOnDemand" transparent="1" />
+    <ePixmap pixmap="Nowa/buttons/red.png" position="4,361" size="30,30" alphatest="blend" />
+    <ePixmap pixmap="Nowa/buttons/green.png" position="175,361" size="30,30" alphatest="blend" />
+    <widget source="key_red" render="Label" position="38,361" size="130,30" zPosition="1" font="Regular; 24" halign="left" foregroundColor="white" backgroundColor="background1" transparent="1" />
+    <widget source="key_green" render="Label" position="208,361" size="130,30" zPosition="1" font="Regular; 24" halign="left" foregroundColor="white" backgroundColor="background1" transparent="1" />
+  </screen>
+  <screen name="SpinnerSelection" position="198,162" size="884,464" title="Spinner Selection">
+    <widget source="global.CurrentTime" render="Label" position="686,72" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="681,30" size="130,40" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <ePixmap position="630,213" size="250,250" zPosition="2" pixmap="Nowa/menu/merlin.png" transparent="1" alphatest="blend" />
+    <widget name="filelist" position="4,7" size="630,186" itemHeight="30" scrollbarMode="showOnDemand" transparent="1" />
+    <eLabel text="Preview" position="4,196" size="160,26" font="Regular;26" foregroundColor="white" backgroundColor="background1" transparent="1" />
+    <widget name="spinnerpreview" zPosition="4" position="4,225" size="160,200" alphatest="blend" />
+    <widget source="current" render="Label" position="473,197" zPosition="4" size="160,26" font="Regular;26" foregroundColor="white" backgroundColor="background1" transparent="1" />
+    <widget name="currentspinner" zPosition="2" position="473,225" size="160,200" alphatest="blend" transparent="1" />
+    <ePixmap pixmap="Nowa/buttons/red.png" position="4,431" size="30,30" alphatest="blend" />
+    <ePixmap pixmap="Nowa/buttons/green.png" position="175,431" size="30,30" alphatest="blend" />
+    <ePixmap pixmap="Nowa/buttons/blue.png" position="470,431" size="30,30" alphatest="blend" />
+    <widget source="key_red" render="Label" position="38,431" size="130,30" zPosition="1" font="Regular; 24" halign="left" foregroundColor="white" backgroundColor="background1" transparent="1" />
+    <widget source="key_green" render="Label" position="208,431" size="130,30" zPosition="1" font="Regular; 24" halign="left" foregroundColor="white" backgroundColor="background1" transparent="1" />
+    <widget source="key_blue" render="Label" position="503,431" size="130,30" zPosition="1" font="Regular; 24" halign="left" foregroundColor="white" backgroundColor="background1" transparent="1" />
+  </screen>
+  <screen name="SkinSettingsSetup" position="300,211" size="696,395" title="Skin Settings Setup">
+    <widget source="global.CurrentTime" render="Label" position="496,72" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="491,30" size="130,40" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <ePixmap position="435,143" size="250,250" zPosition="2" pixmap="Nowa/menu/merlin.png" transparent="1" alphatest="blend" />
+    <widget name="config" position="4,12" size="439,326" itemHeight="30" scrollbarMode="showOnDemand" transparent="1" />
+    <ePixmap pixmap="Nowa/buttons/red.png" position="4,361" size="30,30" alphatest="blend" />
+    <ePixmap pixmap="Nowa/buttons/green.png" position="175,361" size="30,30" alphatest="blend" />
+    <ePixmap pixmap="Nowa/buttons/yellow.png" position="345,361" size="30,30" alphatest="blend" />
+    <widget source="key_red" render="Label" position="38,361" size="130,30" zPosition="1" font="Regular; 24" halign="left" foregroundColor="white" backgroundColor="background1" transparent="1" />
+    <widget source="key_green" render="Label" position="208,361" size="130,30" zPosition="1" font="Regular; 24" halign="left" foregroundColor="white" backgroundColor="background1" transparent="1" />
+    <widget source="key_yellow" render="Label" position="378,361" size="130,30" zPosition="1" font="Regular; 24" halign="left" foregroundColor="white" backgroundColor="background1" transparent="1" />
+  </screen>
+  <screen name="ServiceRecordingSettingsSetup" position="center,center" size="820,406" title="Service Recording Settings Setup">
+    <widget source="global.CurrentTime" render="Label" position="646,72" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="641,30" size="130,40" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <ePixmap position="566,130" size="250,250" zPosition="2" pixmap="Nowa/menu/merlin.png" transparent="1" alphatest="blend" />
+    <widget name="entrylist" position="4,36" size="574,320" itemHeight="30" transparent="1" />
+    <widget source="name" render="Label" position="4,1" size="287,26" font="Regular;22" halign="center" valign="center" foregroundColor="white" backgroundColor="background1" transparent="1" />
+    <widget source="relationname" render="Label" position="291,1" size="287,26" font="Regular;22" halign="center" valign="center" foregroundColor="white" backgroundColor="background1" transparent="1" />
+    <ePixmap pixmap="Nowa/buttons/red.png" position="3,377" size="30,30" alphatest="blend" />
+    <ePixmap pixmap="Nowa/buttons/green.png" position="175,377" size="30,30" alphatest="blend" />
+    <ePixmap pixmap="Nowa/buttons/yellow.png" position="345,377" size="30,30" alphatest="blend" />
+    <ePixmap pixmap="Nowa/buttons/blue.png" position="515,377" size="30,30" alphatest="blend" />
+    <widget source="key_red" render="Label" position="37,377" size="130,30" zPosition="1" font="Regular; 24" halign="left" foregroundColor="white" backgroundColor="background1" transparent="1" />
+    <widget source="key_green" render="Label" position="208,377" size="130,30" zPosition="1" font="Regular; 24" halign="left" foregroundColor="white" backgroundColor="background1" transparent="1" />
+    <widget source="key_yellow" render="Label" position="378,377" size="130,30" zPosition="1" font="Regular; 24" halign="left" foregroundColor="white" backgroundColor="background1" transparent="1" />
+    <widget source="key_blue" render="Label" position="548,377" size="130,30" zPosition="1" font="Regular; 24" halign="left" foregroundColor="white" backgroundColor="background1" transparent="1" />
+  </screen>
+  <screen name="ServiceRecordingSettingsEntryConfigScreen" position="center,center" size="820,406" title="Service Recording SettingsEntry ConfigScreen">
+    <widget source="global.CurrentTime" render="Label" position="646,72" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="641,30" size="130,40" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <ePixmap position="566,130" size="250,250" zPosition="2" pixmap="Nowa/menu/merlin.png" transparent="1" alphatest="blend" />
+    <widget name="config" position="4,1" size="574,353" itemHeight="30" transparent="1" />
+    <ePixmap pixmap="Nowa/buttons/red.png" position="3,377" size="30,30" alphatest="blend" />
+    <ePixmap pixmap="Nowa/buttons/green.png" position="175,377" size="30,30" alphatest="blend" />
+    <widget source="key_red" render="Label" position="37,377" size="130,30" zPosition="1" font="Regular; 24" halign="left" foregroundColor="white" backgroundColor="background1" transparent="1" />
+    <widget source="key_green" render="Label" position="208,377" size="130,30" zPosition="1" font="Regular; 24" halign="left" foregroundColor="white" backgroundColor="background1" transparent="1" />
+  </screen>
+  <screen name="PiconMapperConfigScreen" position="300,211" size="696,395" title="PiconMapper Config Screen">
+    <widget source="global.CurrentTime" render="Label" position="496,72" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="491,30" size="130,40" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <ePixmap position="435,143" size="250,250" zPosition="2" pixmap="Nowa/menu/merlin.png" transparent="1" alphatest="blend" />
+    <widget name="config" position="4,12" size="439,326" scrollbarMode="showOnDemand" itemHeight="30" transparent="1" />
+    <widget name="ButtonGreen" pixmap="Nowa/buttons/green.png" position="175,361" size="30,30" alphatest="blend" />
+    <widget name="ButtonGreentext" position="208,361" size="130,30" zPosition="1" font="Regular; 24" halign="left" foregroundColor="white" backgroundColor="background1" transparent="1" />
+  </screen>
+  <screen name="PiconMapperScreen" position="300,211" size="696,395" title="Picon Mapper">
+    <widget source="global.CurrentTime" render="Label" position="496,72" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="491,30" size="130,40" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <ePixmap position="435,143" size="250,250" zPosition="2" pixmap="Nowa/menu/merlin.png" transparent="1" alphatest="blend" />
+    <widget name="description" position="4,3" size="227,25" font="Regular; 20" transparent="1" />
+    <widget name="unmappedsref" position="231,3" size="227,25" font="Regular; 20" transparent="1" />
+    <widget name="menulist" position="4,43" size="454,300" itemHeight="30" scrollbarMode="showOnDemand" />
+    <widget name="instruction" position="4,351" size="453,40" font="Italic; 18" transparent="0" foregroundColor="un808888" />
+  </screen>
+  <screen name="PiconMappingViewerScreen" position="300,211" size="696,395" title="PiconMapper - Viewer">
+    <widget source="global.CurrentTime" render="Label" position="496,72" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="491,30" size="130,40" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <ePixmap position="435,143" size="250,250" zPosition="2" pixmap="Nowa/menu/merlin.png" transparent="1" alphatest="blend" />
+    <widget name="ButtonRed" pixmap="Nowa/buttons/red.png" position="4,361" size="30,30" alphatest="blend" />
+    <widget name="ButtonRedtext" position="35,361" size="130,30" zPosition="1" font="Regular; 24" halign="left" foregroundColor="white" backgroundColor="background1" transparent="1" />
+    <widget name="ButtonMenutext" position="313,361" size="130,30" zPosition="1" font="Regular; 24" halign="left" foregroundColor="white" backgroundColor="background1" transparent="1" />
+    <widget name="ButtonMenu" pixmap="Nowa/buttons/menu.png" position="223,356" zPosition="10" size="81,40" transparent="1" alphatest="on" />
+    <widget name="menulist" position="4,12" size="439,326" itemHeight="30" scrollbarMode="showOnDemand" transparent="1" />
+  </screen>
+  <screen name="Infopanel" position="0,0" size="1280,720" title="INFO Panel" flags="wfNoBorder" backgroundColor="transparent">
+    <ePixmap position="0,0" size="1280,720" zPosition="-1" pixmap="Nowa/back/opd.png" />
+    <ePixmap position="48,160" size="650,450" zPosition="5" pixmap="Nowa/back/uplist.png" alphatest="blend" transparent="1" />
+    <ePixmap position="754,184" size="483,444" zPosition="2" pixmap="Nowa/menu/log.png" alphatest="blend" transparent="1" />
+    <widget source="Title" render="Label" halign="left" position="40,39" size="536,103" font="Regular; 78" backgroundColor="background1" transparent="1" />
+    <widget source="global.CurrentTime" render="Label" position="1115,104" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="1110,60" size="130,45" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget name="Mlist" position="48,160" size="650,450" zPosition="5" scrollbarMode="showNever" transparent="1" />
+    <widget name="label1" position="52,641" size="641,30" font="Regular; 24" transparent="1" foregroundColor="lightgrey" halign="center" backgroundColor="black" />
+  </screen>
+  <screen name="SoftcamPanel" position="0,0" size="1280,720" title="Softcam Panel" flags="wfNoBorder" backgroundColor="transparent">
+    <ePixmap position="0,0" size="1280,720" zPosition="-1" pixmap="Nowa/back/opd.png" />
+    <ePixmap pixmap="Nowa/menu/cam.png" zPosition="2" position="835,283" size="250,250" alphatest="blend" transparent="1" />
+    <widget source="Title" render="Label" halign="left" position="40,39" size="536,103" font="Regular; 78" backgroundColor="background1" transparent="1" />
+    <widget source="global.CurrentTime" render="Label" position="1115,104" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="1110,60" size="130,45" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <eLabel backgroundColor="grey" position="50,316" size="642,1" zPosition="1" foregroundColor="background1" />
+    <eLabel backgroundColor="grey" position="50,359" size="642,1" zPosition="1" foregroundColor="background1" />
+    <widget font="Regular;18" name="camcount" position="627,326" size="60,25" transparent="1" />
+    <widget name="config" position="50,209" size="642,100" transparent="1" font="Replacement; 22" backgroundColor="background1" />
+    <ePixmap pixmap="Nowa/buttons/red.png" position="49,159" size="30,30" alphatest="blend" />
+    <ePixmap pixmap="Nowa/buttons/green.png" position="211,159" size="30,30" alphatest="blend" />
+    <ePixmap pixmap="Nowa/buttons/yellow.png" position="373,159" size="30,30" alphatest="blend" />
+    <ePixmap pixmap="Nowa/buttons/blue.png" position="538,159" size="30,30" alphatest="blend" />
+    <widget font="Replacement; 24" halign="center" name="key_red" position="82,158" size="120,35" transparent="1" valign="center" zPosition="2" backgroundColor="background1" />
+    <widget font="Replacement; 24" halign="center" name="key_green" position="246,158" size="120,35" transparent="1" valign="center" zPosition="2" backgroundColor="background1" />
+    <widget font="Replacement; 24" halign="center" name="key_yellow" position="410,157" size="120,35" transparent="1" valign="center" zPosition="2" backgroundColor="background1" />
+    <widget font="Replacement; 24" halign="center" name="key_blue" position="572,157" size="120,35" transparent="1" valign="center" zPosition="2" backgroundColor="background1" />
+    <widget font="Replacement; 22" name="actifcam" position="53,322" size="303,32" transparent="1" backgroundColor="background1" />
+    <widget font="Regular; 22" name="actifcam2" position="370,322" size="246,32" transparent="1" backgroundColor="transpBlack" />
+    <widget font="Replacement; 22" name="ecminfo" position="50,364" size="642,308" transparent="1" backgroundColor="background1" foregroundColor="grey" />
+  </screen>
+  <screen name="VideoEnhancementSetup" position="center,center" size="1130,520" title="VideoEnhancementSetup">
+    <ePixmap position="10,466" size="30,30" pixmap="Nowa/buttons/red.png" alphatest="on" zPosition="1" />
+    <ePixmap position="294,466" size="30,30" pixmap="Nowa/buttons/green.png" alphatest="on" zPosition="3" />
+    <ePixmap position="577,466" size="30,30" pixmap="Nowa/buttons/yellow.png" alphatest="on" zPosition="3" />
+    <ePixmap position="865,466" size="30,30" pixmap="Nowa/buttons/blue.png" alphatest="on" zPosition="1" />
+    <widget source="key_red" render="Label" position="10,460" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
+    <widget source="key_green" render="Label" position="293,460" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
+    <widget source="key_yellow" render="Label" position="577,460" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
+    <widget source="key_blue" render="Label" position="865,460" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
+    <widget name="config" position="20,20" size="1090,350" scrollbarMode="showOnDemand" transparent="1" />
+    <widget source="introduction" render="Label" position="290,420" size="550,25" zPosition="10" font="Regular;22" halign="center" valign="center" foregroundColor="white" backgroundColor="transpBlack" transparent="1" />
+  </screen>
+  <screen name="QuickMenu" position="0,0" size="1280,720" flags="wfNoBorder" backgroundColor="transparent">
+    <ePixmap position="0,0" size="1280,720" zPosition="-1" pixmap="Nowa/back/opd.png" />
+    <ePixmap position="48,156" size="346,450" zPosition="0" pixmap="Nowa/back/uplist.png" alphatest="blend" transparent="1" />
+    <ePixmap position="409,156" size="288,450" zPosition="0" pixmap="Nowa/back/uplist.png" alphatest="blend" transparent="1" />
+    <ePixmap position="754,184" size="483,444" zPosition="2" pixmap="Nowa/menu/log.png" alphatest="blend" transparent="1" />
+    <widget source="Title" render="Label" halign="left" position="40,39" size="536,103" font="Regular; 78" backgroundColor="background1" transparent="1" />
+    <widget source="global.CurrentTime" render="Label" position="1115,104" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="1110,60" size="130,45" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget name="list" position="48,156" size="346,450" backgroundColor="black" itemHeight="50" transparent="1" zPosition="1" />
+    <widget name="sublist" position="409,156" size="288,450" backgroundColor="black" itemHeight="50" transparent="1" zPosition="1" />
+    <eLabel position="401,156" size="2,450" backgroundColor="undcdcdc" zPosition="3" />
+    <widget name="description" position="45,614" size="655,45" zPosition="1" font="Replacement; 18" halign="center" backgroundColor="black" transparent="1" foregroundColor="un808888" />
+    <widget name="key_red" position="69,666" size="186,30" zPosition="2" font="Regular;22" halign="center" foregroundColor="white" backgroundColor="black" transparent="1" />
+    <widget name="key_green" position="290,666" size="186,30" zPosition="1" font="Regular;22" halign="center" foregroundColor="white" backgroundColor="black" transparent="1" />
+    <widget name="key_yellow" position="513,667" size="186,30" zPosition="1" font="Regular;22" halign="center" foregroundColor="white" backgroundColor="black" transparent="1" valign="center" />
+    <ePixmap pixmap="Nowa/buttons/red.png" position="47,665" size="30,30" alphatest="blend" zPosition="1" />
+    <ePixmap pixmap="Nowa/buttons/green.png" position="269,666" size="30,30" alphatest="blend" zPosition="1" />
+    <ePixmap pixmap="Nowa/buttons/yellow.png" position="491,667" size="30,30" alphatest="blend" />
+  </screen>
+</skin>
