@@ -106,10 +106,10 @@
     <sub name="Subtitle_Italic" font="Regular;30" foregroundColor="undcaaaa" shadowColor="#40101010" shadowOffset="3,3" />
   </subtitles>
   <screen name="SubtitleDisplay" position="0,0" size="1280,720" zPosition="-1" flags="wfNoBorder" backgroundColor="transparent" />
-  <screen name="Volume" position="center,25" size="485,30" title="Volume" backgroundColor="transparent" zPosition="10" flags="wfNoBorder">
-    <ePixmap position="0,0" zPosition="0" size="485,30" pixmap="Nowa/back/vol_back.png" />
-    <widget name="Volume" position="100,4" zPosition="1" size="380,23" pixmap="Nowa/back/vol.png" transparent="1" />
-  </screen>
+<screen name="Volume" position="397,80" size="485,20" title="Volume" backgroundColor="transparent" zPosition="10" flags="wfNoBorder">
+  <ePixmap position="0,0" zPosition="0" size="485,20" pixmap="Nowa/back/vol_back.png" />
+  <widget name="Volume" position="100,3" zPosition="1" size="380,14" pixmap="Nowa/back/vol.png" transparent="1" />
+</screen>
   <screen name="InfoBar" position="0,10" size="1280,720" title="InfoBar" backgroundColor="transparent" flags="wfNoBorder">
     <ePixmap position="0,0" size="1280,720" zPosition="-1" pixmap="Nowa/back/info_bg.png" />
     <widget source="session.RecordState" render="Pixmap" position="130,507" size="76,23" zPosition="2" pixmap="Nowa/icons/ico_rec_on.png" alphatest="blend">
@@ -503,45 +503,45 @@
   </screen>
 <screen name="ChannelSelection" position="0,0" size="1280,720" title="" backgroundColor="transparent" zPosition="0" flags="wfNoBorder">
   <ePixmap position="0,0" size="1280,720" zPosition="-1" pixmap="Nowa/back/list.png" alphatest="on" transparent="1" />
-  <ePixmap position="763,41" size="520,307" zPosition="18" pixmap="Nowa/back/uppig.png" alphatest="blend" transparent="1" />
-  <widget source="session.VideoPicture" render="Pig" position="778,57" size="490,274" zPosition="3" backgroundColor="transparent" />
-  <widget source="Title" render="Label" position="61,4" size="570,34" font="Replacement; 22" backgroundColor="background1" halign="left" transparent="1" foregroundColor="greya" />
-  <widget source="global.CurrentTime" render="Label" position="1194,3" size="75,30" font="Replacement; 24" backgroundColor="background1" zPosition="3" halign="left" transparent="1" foregroundColor="greya">
+  <ePixmap position="738,41" size="520,307" zPosition="18" pixmap="Nowa/back/uppig.png" alphatest="blend" transparent="1" />
+  <widget source="session.VideoPicture" render="Pig" position="753,57" size="490,274" zPosition="3" backgroundColor="transparent" />
+  <widget source="Title" render="Label" position="61,9" size="570,34" font="Replacement; 22" backgroundColor="background1" halign="left" transparent="1" foregroundColor="greya" />
+  <widget source="global.CurrentTime" render="Label" position="1164,13" size="75,30" font="Replacement; 24" backgroundColor="background1" zPosition="3" halign="right" transparent="1" foregroundColor="greya">
     <convert type="ClockToText">Default</convert>
   </widget>
-  <widget source="global.CurrentTime" render="Label" position="764,3" size="137,30" font="Replacement; 24" backgroundColor="background1" zPosition="3" halign="left" transparent="1" foregroundColor="greya">
+  <widget source="global.CurrentTime" render="Label" position="749,13" size="137,30" font="Replacement; 24" backgroundColor="background1" zPosition="3" halign="left" transparent="1" foregroundColor="greya">
     <convert type="ClockToText">Format:%d.%m.%Y</convert>
   </widget>
-  <widget name="list" colorEventProgressbarBorder="white" colorEventProgressbarBorderSelected="white" enableWrapAround="1" scrollbarMode="showOnDemand" position="7,47" size="747,510" backgroundColor="black" foregroundColor="white" colorServiceDescription="secondFG" colorServiceDescriptionSelected="white" foregroundColorServiceNotAvail="#737373" serviceItemHeight="30" serviceNumberFont="Regular;23" serviceNameFont="Replacement;23" serviceInfoFont="Replacement;23" transparent="1" />
-  <widget source="ServiceEvent" render="NowaHDRunningText" options="movetype=running,startpoint=0,direction=left,steptime=140,repeat=3,always=0,oneshot=1,startdelay=5000,wrap" position="774,350" zPosition="1" size="496,55" font="Replacement; 35" valign="center" foregroundColor="secondFG" backgroundColor="black" transparent="1" halign="center">
+  <widget name="list" colorEventProgressbarBorder="white" colorEventProgressbarBorderSelected="white" enableWrapAround="1" scrollbarMode="showOnDemand" position="29,47" size="702,510" backgroundColor="black" foregroundColor="white" colorServiceDescription="secondFG" colorServiceDescriptionSelected="white" foregroundColorServiceNotAvail="#737373" serviceItemHeight="30" serviceNumberFont="Regular;23" serviceNameFont="Replacement;23" serviceInfoFont="Replacement;23" transparent="1" />
+  <widget source="ServiceEvent" render="NowaHDRunningText" options="movetype=running,startpoint=0,direction=left,steptime=140,repeat=3,always=0,oneshot=1,startdelay=5000,wrap" position="749,350" zPosition="1" size="496,55" font="Replacement; 35" valign="center" foregroundColor="secondFG" backgroundColor="black" transparent="1" halign="center">
     <convert type="EventName">Name</convert>
   </widget>
-  <widget source="ServiceEvent" render="Label" position="774,410" zPosition="1" size="111,42" font="Replacement; 28" backgroundColor="black" transparent="1" foregroundColor="white">
+  <widget source="ServiceEvent" render="Label" position="749,410" zPosition="1" size="111,42" font="Replacement; 28" backgroundColor="black" transparent="1" foregroundColor="white">
     <convert type="EventTime">StartTime</convert>
     <convert type="ClockToText">
     </convert>
   </widget>
-  <widget source="ServiceEvent" render="Label" position="1152,410" zPosition="1" size="120,42" font="Replacement; 28" backgroundColor="black" transparent="1" foregroundColor="white" halign="right">
+  <widget source="ServiceEvent" render="Label" position="1122,410" zPosition="1" size="120,42" font="Replacement; 28" backgroundColor="black" transparent="1" foregroundColor="white" halign="right">
     <convert type="EventTime">EndTime</convert>
     <convert type="ClockToText">Format: %H:%M</convert>
   </widget>
-  <widget source="ServiceEvent" render="Progress" position="893,431" size="250,5" borderWidth="0" backgroundColor="white" transparent="1" zPosition="5">
+  <widget source="ServiceEvent" render="Progress" position="868,431" size="250,5" borderWidth="0" backgroundColor="white" transparent="1" zPosition="5">
     <convert type="EventTime">Progress</convert>
   </widget>
-  <eLabel backgroundColor="grey" position="893,433" size="250,1" zPosition="1" foregroundColor="background1" />
-  <widget source="ServiceEvent" render="NowaHDRunningText" options="movetype=running,startpoint=0,direction=top,steptime=140,repeat=3,always=0,oneshot=1,startdelay=5000,wrap" position="10,565" size="921,114" font="bold; 22" foregroundColor="darkgrey" backgroundColor="greya" transparent="1">
+  <eLabel backgroundColor="grey" position="868,433" size="250,1" zPosition="1" foregroundColor="background1" />
+  <widget source="ServiceEvent" render="NowaHDRunningText" options="movetype=running,startpoint=0,direction=top,steptime=140,repeat=3,always=0,oneshot=1,startdelay=5000,wrap" position="29,566" size="901,89" font="bold; 22" foregroundColor="darkgrey" backgroundColor="greya" transparent="1">
     <convert type="EventName">ExtendedDescription</convert>
   </widget>
-  <widget source="ServiceEvent" render="NowaHDNextEvent" position="774,481" size="496,76" font="Replacement;23" backgroundColor="black" foregroundColor="un808888" transparent="1">
+  <widget source="ServiceEvent" render="NowaHDNextEvent" position="749,481" size="496,76" font="Replacement;23" backgroundColor="black" foregroundColor="un808888" transparent="1">
   </widget>
-  <ePixmap pixmap="Nowa/buttons/red.png" position="5,687" size="35,30" alphatest="on" />
-  <ePixmap pixmap="Nowa/buttons/green.png" position="199,687" size="35,30" alphatest="on" />
-  <ePixmap pixmap="Nowa/buttons/yellow.png" position="390,688" size="35,30" alphatest="on" />
-  <ePixmap pixmap="Nowa/buttons/blue.png" position="582,687" size="35,30" alphatest="on" />
-  <widget name="key_red" position="30,687" zPosition="1" size="164,30" font="Replacement; 22" halign="center" backgroundColor="greya" transparent="1" foregroundColor="darkgrey1" />
-  <widget name="key_green" position="222,687" zPosition="1" size="164,30" font="Replacement; 22" halign="center" backgroundColor="greya" transparent="1" foregroundColor="darkgrey1" />
-  <widget name="key_yellow" position="413,688" zPosition="1" size="164,30" font="Replacement; 22" halign="center" backgroundColor="greya" transparent="1" foregroundColor="darkgrey1" />
-  <widget name="key_blue" position="604,687" zPosition="1" size="164,30" font="Replacement; 24" halign="center" backgroundColor="greya" transparent="1" foregroundColor="darkgrey1" />
+  <ePixmap pixmap="Nowa/buttons/red.png" position="30,672" size="35,30" alphatest="on" />
+  <ePixmap pixmap="Nowa/buttons/green.png" position="229,672" size="35,30" alphatest="on" />
+  <ePixmap pixmap="Nowa/buttons/yellow.png" position="435,673" size="35,30" alphatest="on" />
+  <ePixmap pixmap="Nowa/buttons/blue.png" position="632,672" size="35,30" alphatest="on" />
+  <widget name="key_red" position="55,672" zPosition="1" size="164,30" font="Replacement; 22" halign="center" backgroundColor="greya" transparent="1" foregroundColor="darkgrey1" />
+  <widget name="key_green" position="257,672" zPosition="1" size="164,30" font="Replacement; 22" halign="center" backgroundColor="greya" transparent="1" foregroundColor="darkgrey1" />
+  <widget name="key_yellow" position="458,673" zPosition="1" size="164,30" font="Replacement; 22" halign="center" backgroundColor="greya" transparent="1" foregroundColor="darkgrey1" />
+  <widget name="key_blue" position="654,672" zPosition="1" size="164,30" font="Replacement; 24" halign="center" backgroundColor="greya" transparent="1" foregroundColor="darkgrey1" />
 </screen>
   <screen name="BouquetSelector" position="354,201" size="600,350" title="Choose bouquet">
     <widget name="menu" position="3,10" size="594,340" scrollbarMode="showOnDemand" itemHeight="35" transparent="1" />
