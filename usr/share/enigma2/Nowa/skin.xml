@@ -93,8 +93,8 @@
     <pixmap name="ValuePixmap" filename="Nowa/back/scrollbarslider.png" />
   </windowstylescrollbar>
   <fonts>
-    <font filename="Nowa/fonts/setrixHD.ttf" name="Regular" scale="95" />
-    <font filename="Nowa/fonts/Arial Rounded MT Bold Bold.ttf" name="bold" scale="95" />
+    <font filename="Nowa/fonts/setrixHD.ttf" name="Regular" scale="93" />
+    <font filename="Nowa/fonts/Arial Rounded MT Bold Bold.ttf" name="bold" scale="85" />
     <font filename="lcd.ttf" name="LCD" scale="100" />
     <font filename="Nowa/fonts/setrixHD.ttf" name="Replacement" scale="105" replacement="1" />
     <font filename="tuxtxt.ttf" name="Console" scale="100" />
